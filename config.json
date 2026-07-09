@@ -12,8 +12,7 @@
       "name": "Needle peak",
       "slug": "house-2",
       "sources": [
-        { "platform": "Airbnb", "ical_url": "https://www.airbnb.com/calendar/ical/1340001911339552018.ics?t=7a7f1062131f4fbeb0141b0c9c45dd3f&locale=en
-" },
+        { "platform": "Airbnb", "ical_url": "https://www.airbnb.com/calendar/ical/1340001911339552018.ics?t=7a7f1062131f4fbeb0141b0c9c45dd3f&locale=en" },
         { "platform": "Vrbo", "ical_url": "https://www.vrbo.com/icalendar/c5f809422ce04b2d802f30d442794563.ics?nonTentative" }
       ]
     },
