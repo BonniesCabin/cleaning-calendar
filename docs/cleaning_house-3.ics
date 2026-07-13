@@ -11,9 +11,16 @@ UID:stay-house-3-2025-06-07-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20250613
-DTEND;VALUE=DATE:20250614
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250607T150000
+DTEND;TZID=America/Los_Angeles:20250607T160000
+UID:checkin-house-3-2025-06-07-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250613T110000
+DTEND;TZID=America/Los_Angeles:20250613T120000
 UID:checkout-house-3-2025-06-13-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -25,9 +32,16 @@ UID:stay-house-3-2025-06-19-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20250622
-DTEND;VALUE=DATE:20250623
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250619T150000
+DTEND;TZID=America/Los_Angeles:20250619T160000
+UID:checkin-house-3-2025-06-19-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250622T110000
+DTEND;TZID=America/Los_Angeles:20250622T120000
 UID:checkout-house-3-2025-06-22-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -40,9 +54,16 @@ UID:stay-house-3-2025-06-23-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20250701
-DTEND;VALUE=DATE:20250702
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250623T150000
+DTEND;TZID=America/Los_Angeles:20250623T160000
+UID:checkin-house-3-2025-06-23-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250701T110000
+DTEND;TZID=America/Los_Angeles:20250701T120000
 UID:checkout-house-3-2025-07-01-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -55,10 +76,17 @@ UID:stay-house-3-2025-07-06-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo) -- BACK-TO-BACK TURNOV
- ER\, same-day check-in
-DTSTART;VALUE=DATE:20250710
-DTEND;VALUE=DATE:20250711
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250706T150000
+DTEND;TZID=America/Los_Angeles:20250706T160000
+UID:checkin-house-3-2025-07-06-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BA
+ CK\, next guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20250710T110000
+DTEND;TZID=America/Los_Angeles:20250710T120000
 UID:checkout-house-3-2025-07-10-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -71,9 +99,16 @@ UID:stay-house-3-2025-07-10-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20250713
-DTEND;VALUE=DATE:20250714
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250710T150000
+DTEND;TZID=America/Los_Angeles:20250710T160000
+UID:checkin-house-3-2025-07-10-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250713T110000
+DTEND;TZID=America/Los_Angeles:20250713T120000
 UID:checkout-house-3-2025-07-13-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -85,10 +120,17 @@ UID:stay-house-3-2025-07-18-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo) -- BACK-TO-BACK TURNOV
- ER\, same-day check-in
-DTSTART;VALUE=DATE:20250720
-DTEND;VALUE=DATE:20250721
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250718T150000
+DTEND;TZID=America/Los_Angeles:20250718T160000
+UID:checkin-house-3-2025-07-18-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BA
+ CK\, next guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20250720T110000
+DTEND;TZID=America/Los_Angeles:20250720T120000
 UID:checkout-house-3-2025-07-20-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -101,9 +143,16 @@ UID:stay-house-3-2025-07-20-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20250724
-DTEND;VALUE=DATE:20250725
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250720T150000
+DTEND;TZID=America/Los_Angeles:20250720T160000
+UID:checkin-house-3-2025-07-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250724T110000
+DTEND;TZID=America/Los_Angeles:20250724T120000
 UID:checkout-house-3-2025-07-24-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -116,9 +165,16 @@ UID:stay-house-3-2025-07-25-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20250730
-DTEND;VALUE=DATE:20250731
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250725T150000
+DTEND;TZID=America/Los_Angeles:20250725T160000
+UID:checkin-house-3-2025-07-25-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250730T110000
+DTEND;TZID=America/Los_Angeles:20250730T120000
 UID:checkout-house-3-2025-07-30-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -130,9 +186,16 @@ UID:stay-house-3-2025-08-21-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20250824
-DTEND;VALUE=DATE:20250825
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250821T150000
+DTEND;TZID=America/Los_Angeles:20250821T160000
+UID:checkin-house-3-2025-08-21-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250824T110000
+DTEND;TZID=America/Los_Angeles:20250824T120000
 UID:checkout-house-3-2025-08-24-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -145,9 +208,16 @@ UID:stay-house-3-2025-09-05-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20250907
-DTEND;VALUE=DATE:20250908
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250905T150000
+DTEND;TZID=America/Los_Angeles:20250905T160000
+UID:checkin-house-3-2025-09-05-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250907T110000
+DTEND;TZID=America/Los_Angeles:20250907T120000
 UID:checkout-house-3-2025-09-07-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -159,9 +229,16 @@ UID:stay-house-3-2025-09-26-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20250928
-DTEND;VALUE=DATE:20250929
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250926T150000
+DTEND;TZID=America/Los_Angeles:20250926T160000
+UID:checkin-house-3-2025-09-26-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250928T110000
+DTEND;TZID=America/Los_Angeles:20250928T120000
 UID:checkout-house-3-2025-09-28-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -173,9 +250,16 @@ UID:stay-house-3-2025-12-21-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20251227
-DTEND;VALUE=DATE:20251228
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20251221T150000
+DTEND;TZID=America/Los_Angeles:20251221T160000
+UID:checkin-house-3-2025-12-21-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20251227T110000
+DTEND;TZID=America/Los_Angeles:20251227T120000
 UID:checkout-house-3-2025-12-27-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -187,9 +271,16 @@ UID:stay-house-3-2025-12-31-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20260104
-DTEND;VALUE=DATE:20260105
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20251231T150000
+DTEND;TZID=America/Los_Angeles:20251231T160000
+UID:checkin-house-3-2025-12-31-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260104T110000
+DTEND;TZID=America/Los_Angeles:20260104T120000
 UID:checkout-house-3-2026-01-04-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -202,9 +293,16 @@ UID:stay-house-3-2026-02-05-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20260208
-DTEND;VALUE=DATE:20260209
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260205T150000
+DTEND;TZID=America/Los_Angeles:20260205T160000
+UID:checkin-house-3-2026-02-05-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260208T110000
+DTEND;TZID=America/Los_Angeles:20260208T120000
 UID:checkout-house-3-2026-02-08-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -216,9 +314,16 @@ UID:stay-house-3-2026-03-20-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20260322
-DTEND;VALUE=DATE:20260323
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260320T150000
+DTEND;TZID=America/Los_Angeles:20260320T160000
+UID:checkin-house-3-2026-03-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260322T110000
+DTEND;TZID=America/Los_Angeles:20260322T120000
 UID:checkout-house-3-2026-03-22-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -231,9 +336,16 @@ UID:stay-house-3-2026-05-13-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20260517
-DTEND;VALUE=DATE:20260518
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260513T150000
+DTEND;TZID=America/Los_Angeles:20260513T160000
+UID:checkin-house-3-2026-05-13-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260517T110000
+DTEND;TZID=America/Los_Angeles:20260517T120000
 UID:checkout-house-3-2026-05-17-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -246,9 +358,16 @@ UID:stay-house-3-2026-05-22-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20260525
-DTEND;VALUE=DATE:20260526
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260522T150000
+DTEND;TZID=America/Los_Angeles:20260522T160000
+UID:checkin-house-3-2026-05-22-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260525T110000
+DTEND;TZID=America/Los_Angeles:20260525T120000
 UID:checkout-house-3-2026-05-25-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -261,9 +380,16 @@ UID:stay-house-3-2026-06-20-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20260622
-DTEND;VALUE=DATE:20260623
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260620T150000
+DTEND;TZID=America/Los_Angeles:20260620T160000
+UID:checkin-house-3-2026-06-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260622T110000
+DTEND;TZID=America/Los_Angeles:20260622T120000
 UID:checkout-house-3-2026-06-22-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -275,9 +401,16 @@ UID:stay-house-3-2026-07-01-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20260706
-DTEND;VALUE=DATE:20260707
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260701T150000
+DTEND;TZID=America/Los_Angeles:20260701T160000
+UID:checkin-house-3-2026-07-01-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260706T110000
+DTEND;TZID=America/Los_Angeles:20260706T120000
 UID:checkout-house-3-2026-07-06-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -289,10 +422,17 @@ UID:stay-house-3-2026-07-10-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb) -- BACK-TO-BACK TURN
- OVER\, same-day check-in
-DTSTART;VALUE=DATE:20260712
-DTEND;VALUE=DATE:20260713
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260710T150000
+DTEND;TZID=America/Los_Angeles:20260710T160000
+UID:checkin-house-3-2026-07-10-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb) -- BACK-TO-
+ BACK\, next guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20260712T110000
+DTEND;TZID=America/Los_Angeles:20260712T120000
 UID:checkout-house-3-2026-07-12-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -305,9 +445,16 @@ UID:stay-house-3-2026-07-12-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
-DTSTART;VALUE=DATE:20260713
-DTEND;VALUE=DATE:20260714
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260712T150000
+DTEND;TZID=America/Los_Angeles:20260712T160000
+UID:checkin-house-3-2026-07-12-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260713T110000
+DTEND;TZID=America/Los_Angeles:20260713T120000
 UID:checkout-house-3-2026-07-13-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -319,10 +466,17 @@ UID:stay-house-3-2026-07-12-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo) -- BACK-TO-BACK TURNOV
- ER\, same-day check-in
-DTSTART;VALUE=DATE:20260717
-DTEND;VALUE=DATE:20260718
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260712T150000
+DTEND;TZID=America/Los_Angeles:20260712T160000
+UID:checkin-house-3-2026-07-12-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BA
+ CK\, next guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20260717T110000
+DTEND;TZID=America/Los_Angeles:20260717T120000
 UID:checkout-house-3-2026-07-17-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -334,9 +488,16 @@ UID:stay-house-3-2026-07-17-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
-DTSTART;VALUE=DATE:20260719
-DTEND;VALUE=DATE:20260720
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260717T150000
+DTEND;TZID=America/Los_Angeles:20260717T160000
+UID:checkin-house-3-2026-07-17-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260719T110000
+DTEND;TZID=America/Los_Angeles:20260719T120000
 UID:checkout-house-3-2026-07-19-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -348,10 +509,17 @@ UID:stay-house-3-2026-07-20-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb) -- BACK-TO-BACK TURN
- OVER\, same-day check-in
-DTSTART;VALUE=DATE:20260724
-DTEND;VALUE=DATE:20260725
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260720T150000
+DTEND;TZID=America/Los_Angeles:20260720T160000
+UID:checkin-house-3-2026-07-20-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb) -- BACK-TO-
+ BACK\, next guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20260724T110000
+DTEND;TZID=America/Los_Angeles:20260724T120000
 UID:checkout-house-3-2026-07-24-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -363,10 +531,17 @@ UID:stay-house-3-2026-07-24-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb) -- BACK-TO-BACK TURN
- OVER\, same-day check-in
-DTSTART;VALUE=DATE:20260726
-DTEND;VALUE=DATE:20260727
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260724T150000
+DTEND;TZID=America/Los_Angeles:20260724T160000
+UID:checkin-house-3-2026-07-24-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb) -- BACK-TO-
+ BACK\, next guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20260726T110000
+DTEND;TZID=America/Los_Angeles:20260726T120000
 UID:checkout-house-3-2026-07-26-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -378,9 +553,16 @@ UID:stay-house-3-2026-07-26-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20260802
-DTEND;VALUE=DATE:20260803
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260726T150000
+DTEND;TZID=America/Los_Angeles:20260726T160000
+UID:checkin-house-3-2026-07-26-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260802T110000
+DTEND;TZID=America/Los_Angeles:20260802T120000
 UID:checkout-house-3-2026-08-02-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -392,9 +574,16 @@ UID:stay-house-3-2026-08-03-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20260810
-DTEND;VALUE=DATE:20260811
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260803T150000
+DTEND;TZID=America/Los_Angeles:20260803T160000
+UID:checkin-house-3-2026-08-03-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260810T110000
+DTEND;TZID=America/Los_Angeles:20260810T120000
 UID:checkout-house-3-2026-08-10-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -406,9 +595,16 @@ UID:stay-house-3-2026-08-13-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
-DTSTART;VALUE=DATE:20260816
-DTEND;VALUE=DATE:20260817
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260813T150000
+DTEND;TZID=America/Los_Angeles:20260813T160000
+UID:checkin-house-3-2026-08-13-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260816T110000
+DTEND;TZID=America/Los_Angeles:20260816T120000
 UID:checkout-house-3-2026-08-16-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -420,9 +616,16 @@ UID:stay-house-3-2026-08-21-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
-DTSTART;VALUE=DATE:20260823
-DTEND;VALUE=DATE:20260824
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260821T150000
+DTEND;TZID=America/Los_Angeles:20260821T160000
+UID:checkin-house-3-2026-08-21-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260823T110000
+DTEND;TZID=America/Los_Angeles:20260823T120000
 UID:checkout-house-3-2026-08-23-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -434,9 +637,16 @@ UID:stay-house-3-2026-08-28-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
-DTSTART;VALUE=DATE:20260830
-DTEND;VALUE=DATE:20260831
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260828T150000
+DTEND;TZID=America/Los_Angeles:20260828T160000
+UID:checkin-house-3-2026-08-28-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260830T110000
+DTEND;TZID=America/Los_Angeles:20260830T120000
 UID:checkout-house-3-2026-08-30-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -448,9 +658,16 @@ UID:stay-house-3-2026-09-03-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
-DTSTART;VALUE=DATE:20260907
-DTEND;VALUE=DATE:20260908
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260903T150000
+DTEND;TZID=America/Los_Angeles:20260903T160000
+UID:checkin-house-3-2026-09-03-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260907T110000
+DTEND;TZID=America/Los_Angeles:20260907T120000
 UID:checkout-house-3-2026-09-07-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -462,9 +679,16 @@ UID:stay-house-3-2026-09-11-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
-DTSTART;VALUE=DATE:20260913
-DTEND;VALUE=DATE:20260914
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260911T150000
+DTEND;TZID=America/Los_Angeles:20260911T160000
+UID:checkin-house-3-2026-09-11-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260913T110000
+DTEND;TZID=America/Los_Angeles:20260913T120000
 UID:checkout-house-3-2026-09-13-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -476,9 +700,16 @@ UID:stay-house-3-2026-09-18-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260922
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260918T150000
+DTEND;TZID=America/Los_Angeles:20260918T160000
+UID:checkin-house-3-2026-09-18-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260921T110000
+DTEND;TZID=America/Los_Angeles:20260921T120000
 UID:checkout-house-3-2026-09-21-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -490,9 +721,16 @@ UID:stay-house-3-2026-09-25-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
-DTSTART;VALUE=DATE:20260927
-DTEND;VALUE=DATE:20260928
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260925T150000
+DTEND;TZID=America/Los_Angeles:20260925T160000
+UID:checkin-house-3-2026-09-25-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260927T110000
+DTEND;TZID=America/Los_Angeles:20260927T120000
 UID:checkout-house-3-2026-09-27-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -504,9 +742,16 @@ UID:stay-house-3-2026-10-09-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20261009T150000
+DTEND;TZID=America/Los_Angeles:20261009T160000
+UID:checkin-house-3-2026-10-09-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20261011T110000
+DTEND;TZID=America/Los_Angeles:20261011T120000
 UID:checkout-house-3-2026-10-11-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -518,9 +763,16 @@ UID:stay-house-3-2026-11-25-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20261125T150000
+DTEND;TZID=America/Los_Angeles:20261125T160000
+UID:checkin-house-3-2026-11-25-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20261129T110000
+DTEND;TZID=America/Los_Angeles:20261129T120000
 UID:checkout-house-3-2026-11-29-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -532,9 +784,16 @@ UID:stay-house-3-2026-12-18-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
-DTSTART;VALUE=DATE:20261223
-DTEND;VALUE=DATE:20261224
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20261218T150000
+DTEND;TZID=America/Los_Angeles:20261218T160000
+UID:checkin-house-3-2026-12-18-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20261223T110000
+DTEND;TZID=America/Los_Angeles:20261223T120000
 UID:checkout-house-3-2026-12-23-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -546,9 +805,16 @@ UID:stay-house-3-2026-12-30-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
-DTSTART;VALUE=DATE:20270104
-DTEND;VALUE=DATE:20270105
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20261230T150000
+DTEND;TZID=America/Los_Angeles:20261230T160000
+UID:checkin-house-3-2026-12-30-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270104T110000
+DTEND;TZID=America/Los_Angeles:20270104T120000
 UID:checkout-house-3-2027-01-04-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -560,9 +826,16 @@ UID:stay-house-3-2027-01-08-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
-DTSTART;VALUE=DATE:20270110
-DTEND;VALUE=DATE:20270111
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270108T150000
+DTEND;TZID=America/Los_Angeles:20270108T160000
+UID:checkin-house-3-2027-01-08-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270110T110000
+DTEND;TZID=America/Los_Angeles:20270110T120000
 UID:checkout-house-3-2027-01-10-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -574,9 +847,16 @@ UID:stay-house-3-2027-01-15-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
-DTSTART;VALUE=DATE:20270118
-DTEND;VALUE=DATE:20270119
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270115T150000
+DTEND;TZID=America/Los_Angeles:20270115T160000
+UID:checkin-house-3-2027-01-15-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270118T110000
+DTEND;TZID=America/Los_Angeles:20270118T120000
 UID:checkout-house-3-2027-01-18-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -588,9 +868,16 @@ UID:stay-house-3-2027-02-04-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
-DTSTART;VALUE=DATE:20270207
-DTEND;VALUE=DATE:20270208
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270204T150000
+DTEND;TZID=America/Los_Angeles:20270204T160000
+UID:checkin-house-3-2027-02-04-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270207T110000
+DTEND;TZID=America/Los_Angeles:20270207T120000
 UID:checkout-house-3-2027-02-07-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -603,9 +890,16 @@ UID:stay-house-3-2027-07-07-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
-DTSTART;VALUE=DATE:20270714
-DTEND;VALUE=DATE:20270715
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270707T150000
+DTEND;TZID=America/Los_Angeles:20270707T160000
+UID:checkin-house-3-2027-07-07-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270714T110000
+DTEND;TZID=America/Los_Angeles:20270714T120000
 UID:checkout-house-3-2027-07-14-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
