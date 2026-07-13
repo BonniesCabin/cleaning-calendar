@@ -487,18 +487,18 @@ UID:checkout-house-2-2027-01-06-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Needle peak (Airbnb) - Airbnb (Not available) (07/07/2027 - 07/14/
+SUMMARY:Needle peak (Airbnb) - Airbnb (Not available) (07/08/2027 - 07/14/
  2027)
-DTSTART;VALUE=DATE:20270707
+DTSTART;VALUE=DATE:20270708
 DTEND;VALUE=DATE:20270714
-UID:stay-house-2-2027-07-07-Airbnb@cleaning-sync
+UID:stay-house-2-2027-07-08-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Needle peak - CHECK-IN 3:00 PM (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20270707T150000
-DTEND;TZID=America/Los_Angeles:20270707T160000
-UID:checkin-house-2-2027-07-07-Airbnb@cleaning-sync
+DTSTART;TZID=America/Los_Angeles:20270708T150000
+DTEND;TZID=America/Los_Angeles:20270708T160000
+UID:checkin-house-2-2027-07-08-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
