@@ -3,208 +3,32 @@ VERSION:2.0
 PRODID:-//Multi-House Cleaning Sync//EN
 X-WR-CALNAME:Cleaning schedule - Horace greeley
 BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Reserved (07/10/2026 - 07/12/2026)
-DTSTART;VALUE=DATE:20260710
-DTEND;VALUE=DATE:20260712
-DTSTAMP:20260712T223310Z
-UID:1418fb94e984-ceb3f55e49ea012155263e5c67788134@airbnb.com
-CATEGORIES:Horace greeley
-DESCRIPTION:Reservation URL: https://www.airbnb.com/hosting/reservations/d
- etails/HMR4MDDTQM\nPhone Number (Last 4 Digits): 2251
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Reserved (07/17/2026 - 07/19/2026)
-DTSTART;VALUE=DATE:20260717
-DTEND;VALUE=DATE:20260719
-DTSTAMP:20260712T223310Z
-UID:1418fb94e984-c06eb721fa8e909b3ab1a7189756ff77@airbnb.com
-CATEGORIES:Horace greeley
-DESCRIPTION:Reservation URL: https://www.airbnb.com/hosting/reservations/d
- etails/HMKM2QKFJ4\nPhone Number (Last 4 Digits): 6371
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Reserved (07/20/2026 - 07/24/2026)
-DTSTART;VALUE=DATE:20260720
-DTEND;VALUE=DATE:20260724
-DTSTAMP:20260712T223310Z
-UID:1418fb94e984-1971d2a376477c96016c4d257d058fa4@airbnb.com
-CATEGORIES:Horace greeley
-DESCRIPTION:Reservation URL: https://www.airbnb.com/hosting/reservations/d
- etails/HMBF2EZ4TN\nPhone Number (Last 4 Digits): 1276
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Reserved (07/24/2026 - 07/26/2026)
-DTSTART;VALUE=DATE:20260724
-DTEND;VALUE=DATE:20260726
-DTSTAMP:20260712T223310Z
-UID:1418fb94e984-eb3bce124f05708b532aac611062df1e@airbnb.com
-CATEGORIES:Horace greeley
-DESCRIPTION:Reservation URL: https://www.airbnb.com/hosting/reservations/d
- etails/HMEQHWR2HZ\nPhone Number (Last 4 Digits): 0509
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Reserved (08/13/2026 - 08/16/2026)
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260816
-DTSTAMP:20260712T223310Z
-UID:1418fb94e984-708eb9b6ada5d03869320338980fcf80@airbnb.com
-CATEGORIES:Horace greeley
-DESCRIPTION:Reservation URL: https://www.airbnb.com/hosting/reservations/d
- etails/HMR34X3KB9\nPhone Number (Last 4 Digits): 0260
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Reserved (08/21/2026 - 08/23/2026)
-DTSTART;VALUE=DATE:20260821
-DTEND;VALUE=DATE:20260823
-DTSTAMP:20260712T223310Z
-UID:1418fb94e984-2b5d988fd5d51c2b830b668fd63f995b@airbnb.com
-CATEGORIES:Horace greeley
-DESCRIPTION:Reservation URL: https://www.airbnb.com/hosting/reservations/d
- etails/HM5XBYZZ2J\nPhone Number (Last 4 Digits): 7141
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Reserved (08/28/2026 - 08/30/2026)
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20260830
-DTSTAMP:20260712T223310Z
-UID:1418fb94e984-0aa5130b1f5a66d7a573845f609c8cc7@airbnb.com
-CATEGORIES:Horace greeley
-DESCRIPTION:Reservation URL: https://www.airbnb.com/hosting/reservations/d
- etails/HM54T2RMXQ\nPhone Number (Last 4 Digits): 5432
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Reserved (09/03/2026 - 09/07/2026)
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260907
-DTSTAMP:20260712T223310Z
-UID:1418fb94e984-7c501921455a826547c0ebdc5b1a7ffd@airbnb.com
-CATEGORIES:Horace greeley
-DESCRIPTION:Reservation URL: https://www.airbnb.com/hosting/reservations/d
- etails/HMZDQ9T9EN\nPhone Number (Last 4 Digits): 0131
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Reserved (09/11/2026 - 09/13/2026)
-DTSTART;VALUE=DATE:20260911
-DTEND;VALUE=DATE:20260913
-DTSTAMP:20260712T223310Z
-UID:1418fb94e984-724dd723c238627097a1f0fc992c5d6e@airbnb.com
-CATEGORIES:Horace greeley
-DESCRIPTION:Reservation URL: https://www.airbnb.com/hosting/reservations/d
- etails/HMBS3QD5J2\nPhone Number (Last 4 Digits): 1485
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Reserved (09/18/2026 - 09/21/2026)
-DTSTART;VALUE=DATE:20260918
-DTEND;VALUE=DATE:20260921
-DTSTAMP:20260712T223310Z
-UID:1418fb94e984-784f7032749ad6f61b1149b9c25e37a5@airbnb.com
-CATEGORIES:Horace greeley
-DESCRIPTION:Reservation URL: https://www.airbnb.com/hosting/reservations/d
- etails/HMPWWQKFDB\nPhone Number (Last 4 Digits): 6192
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Reserved (09/25/2026 - 09/27/2026)
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260927
-DTSTAMP:20260712T223310Z
-UID:1418fb94e984-571a73a7a85ecd3e553e66905e1920db@airbnb.com
-CATEGORIES:Horace greeley
-DESCRIPTION:Reservation URL: https://www.airbnb.com/hosting/reservations/d
- etails/HMCNYKXN8H\nPhone Number (Last 4 Digits): 5400
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Reserved (10/09/2026 - 10/11/2026)
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261011
-DTSTAMP:20260712T223310Z
-UID:1418fb94e984-7bdd0503ffd36e3ac4a6b15b995f9824@airbnb.com
-CATEGORIES:Horace greeley
-DESCRIPTION:Reservation URL: https://www.airbnb.com/hosting/reservations/d
- etails/HMK5B3MT3B\nPhone Number (Last 4 Digits): 6601
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Reserved (12/18/2026 - 12/23/2026)
-DTSTART;VALUE=DATE:20261218
-DTEND;VALUE=DATE:20261223
-DTSTAMP:20260712T223310Z
-UID:1418fb94e984-119460ab66ee6c8c378a3d475a9ea4b9@airbnb.com
-CATEGORIES:Horace greeley
-DESCRIPTION:Reservation URL: https://www.airbnb.com/hosting/reservations/d
- etails/HMBZ8R3KKW\nPhone Number (Last 4 Digits): 2511
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Reserved (12/30/2026 - 01/04/2027)
-DTSTART;VALUE=DATE:20261230
-DTEND;VALUE=DATE:20270104
-DTSTAMP:20260712T223310Z
-UID:1418fb94e984-037059e1ad3386417cce2418def9fd57@airbnb.com
-CATEGORIES:Horace greeley
-DESCRIPTION:Reservation URL: https://www.airbnb.com/hosting/reservations/d
- etails/HMWN2SFMK4\nPhone Number (Last 4 Digits): 5538
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Reserved (01/08/2027 - 01/10/2027)
-DTSTART;VALUE=DATE:20270108
-DTEND;VALUE=DATE:20270110
-DTSTAMP:20260712T223310Z
-UID:1418fb94e984-76fca93b7c9dceee49a7f4ea5f9e571f@airbnb.com
-CATEGORIES:Horace greeley
-DESCRIPTION:Reservation URL: https://www.airbnb.com/hosting/reservations/d
- etails/HMC5KD2YK2\nPhone Number (Last 4 Digits): 8859
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Reserved (01/15/2027 - 01/18/2027)
-DTSTART;VALUE=DATE:20270115
-DTEND;VALUE=DATE:20270118
-DTSTAMP:20260712T223310Z
-UID:1418fb94e984-e9d6f3e4139ec2b80b80c59e139b1d5c@airbnb.com
-CATEGORIES:Horace greeley
-DESCRIPTION:Reservation URL: https://www.airbnb.com/hosting/reservations/d
- etails/HM3NXEYZSX\nPhone Number (Last 4 Digits): 9886
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Reserved (02/04/2027 - 02/07/2027)
-DTSTART;VALUE=DATE:20270204
-DTEND;VALUE=DATE:20270207
-DTSTAMP:20260712T223310Z
-UID:1418fb94e984-01b5d5e2794643369d3c247f820edc22@airbnb.com
-CATEGORIES:Horace greeley
-DESCRIPTION:Reservation URL: https://www.airbnb.com/hosting/reservations/d
- etails/HMN3ACCHS9\nPhone Number (Last 4 Digits): 2116
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Airbnb (Not available) (07/12/2026 - 07/
- 13/2026)
-DTSTART;VALUE=DATE:20260712
-DTEND;VALUE=DATE:20260713
-DTSTAMP:20260712T223310Z
-UID:7f662ec65913-14158d45727526145ef514139eeb669e@airbnb.com
-CATEGORIES:Horace greeley
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Horace greeley (Airbnb) - Airbnb (Not available) (07/07/2027 - 07/
- 13/2027)
-DTSTART;VALUE=DATE:20270707
-DTEND;VALUE=DATE:20270713
-DTSTAMP:20260712T223310Z
-UID:7f662ec65913-bd863f1049331b68e5445e1d5e653b22@airbnb.com
-CATEGORIES:Horace greeley
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Horace greeley (Vrbo) - Reserved - Khristine (06/07/2025 - 06/13/2
  025)
 DTSTART;VALUE=DATE:20250607
 DTEND;VALUE=DATE:20250613
-DTSTAMP:20260605T163701Z
-UID:2ce04e30-39e5-4fd8-a2a4-d4f618bf3997
+UID:stay-house-3-2025-06-07-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20250613
+DTEND;VALUE=DATE:20250614
+UID:checkout-house-3-2025-06-13-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Horace greeley (Vrbo) - Reserved - Jason (06/19/2025 - 06/22/2025)
 DTSTART;VALUE=DATE:20250619
 DTEND;VALUE=DATE:20250622
-DTSTAMP:20260605T163701Z
-UID:c89629c2-683e-4774-a157-5e1ec40e7fd9
+UID:stay-house-3-2025-06-19-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20250622
+DTEND;VALUE=DATE:20250623
+UID:checkout-house-3-2025-06-22-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
@@ -212,8 +36,14 @@ SUMMARY:Horace greeley (Vrbo) - Reserved - Cynthia (06/23/2025 - 07/01/202
  5)
 DTSTART;VALUE=DATE:20250623
 DTEND;VALUE=DATE:20250701
-DTSTAMP:20260605T163701Z
-UID:364686b9-b8b5-474e-82da-5de7bbd48201
+UID:stay-house-3-2025-06-23-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20250701
+DTEND;VALUE=DATE:20250702
+UID:checkout-house-3-2025-07-01-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
@@ -221,8 +51,15 @@ SUMMARY:Horace greeley (Vrbo) - Reserved - Anthony (07/06/2025 - 07/10/202
  5)
 DTSTART;VALUE=DATE:20250706
 DTEND;VALUE=DATE:20250710
-DTSTAMP:20260605T163701Z
-UID:02cbdf64-0905-4162-8eb2-8cfd5f49a5f7
+UID:stay-house-3-2025-07-06-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo) -- BACK-TO-BACK TURNOV
+ ER\, same-day check-in
+DTSTART;VALUE=DATE:20250710
+DTEND;VALUE=DATE:20250711
+UID:checkout-house-3-2025-07-10-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
@@ -230,16 +67,29 @@ SUMMARY:Horace greeley (Vrbo) - Reserved - Jonathan (07/10/2025 - 07/13/20
  25)
 DTSTART;VALUE=DATE:20250710
 DTEND;VALUE=DATE:20250713
-DTSTAMP:20260605T163701Z
-UID:681ce072-7ae3-441f-818a-1ab0b067794d
+UID:stay-house-3-2025-07-10-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20250713
+DTEND;VALUE=DATE:20250714
+UID:checkout-house-3-2025-07-13-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Horace greeley (Vrbo) - Reserved - imz (07/18/2025 - 07/20/2025)
 DTSTART;VALUE=DATE:20250718
 DTEND;VALUE=DATE:20250720
-DTSTAMP:20260605T163701Z
-UID:1edd65af-a5c3-464d-a64f-46247026e8a1
+UID:stay-house-3-2025-07-18-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo) -- BACK-TO-BACK TURNOV
+ ER\, same-day check-in
+DTSTART;VALUE=DATE:20250720
+DTEND;VALUE=DATE:20250721
+UID:checkout-house-3-2025-07-20-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
@@ -247,8 +97,14 @@ SUMMARY:Horace greeley (Vrbo) - Reserved - Gretchen (07/20/2025 - 07/24/20
  25)
 DTSTART;VALUE=DATE:20250720
 DTEND;VALUE=DATE:20250724
-DTSTAMP:20260605T163701Z
-UID:db12251b-ff0c-4a5c-8995-0bd1c668ecb4
+UID:stay-house-3-2025-07-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20250724
+DTEND;VALUE=DATE:20250725
+UID:checkout-house-3-2025-07-24-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
@@ -256,16 +112,28 @@ SUMMARY:Horace greeley (Vrbo) - Reserved - Joseph (07/25/2025 - 07/30/2025
  )
 DTSTART;VALUE=DATE:20250725
 DTEND;VALUE=DATE:20250730
-DTSTAMP:20260605T163701Z
-UID:04f98319-4739-44d9-aee2-02918680382f
+UID:stay-house-3-2025-07-25-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20250730
+DTEND;VALUE=DATE:20250731
+UID:checkout-house-3-2025-07-30-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Horace greeley (Vrbo) - Blocked (08/21/2025 - 08/24/2025)
 DTSTART;VALUE=DATE:20250821
 DTEND;VALUE=DATE:20250824
-DTSTAMP:20260605T163701Z
-UID:63ddb7be-8065-4ea1-b0c2-cd58c092204e
+UID:stay-house-3-2025-08-21-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20250824
+DTEND;VALUE=DATE:20250825
+UID:checkout-house-3-2025-08-24-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
@@ -273,32 +141,56 @@ SUMMARY:Horace greeley (Vrbo) - Reserved - Jacob w (09/05/2025 - 09/07/202
  5)
 DTSTART;VALUE=DATE:20250905
 DTEND;VALUE=DATE:20250907
-DTSTAMP:20260605T163701Z
-UID:1c453ed5-90b1-4f9b-905d-b0688afcfc0f
+UID:stay-house-3-2025-09-05-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20250907
+DTEND;VALUE=DATE:20250908
+UID:checkout-house-3-2025-09-07-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Horace greeley (Vrbo) - Reserved - Sarah (09/26/2025 - 09/28/2025)
 DTSTART;VALUE=DATE:20250926
 DTEND;VALUE=DATE:20250928
-DTSTAMP:20260605T163701Z
-UID:8d7786b6-d51f-4420-a134-8285da748087
+UID:stay-house-3-2025-09-26-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20250928
+DTEND;VALUE=DATE:20250929
+UID:checkout-house-3-2025-09-28-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Horace greeley (Vrbo) - Reserved - Lisa (12/21/2025 - 12/27/2025)
 DTSTART;VALUE=DATE:20251221
 DTEND;VALUE=DATE:20251227
-DTSTAMP:20260605T163701Z
-UID:b184dfa0-1b68-45df-9b1b-8e1df9532e4a
+UID:stay-house-3-2025-12-21-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20251227
+DTEND;VALUE=DATE:20251228
+UID:checkout-house-3-2025-12-27-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Horace greeley (Vrbo) - Reserved - Marc (12/31/2025 - 01/04/2026)
 DTSTART;VALUE=DATE:20251231
 DTEND;VALUE=DATE:20260104
-DTSTAMP:20260605T163701Z
-UID:ba593037-8147-4839-818f-3266b98415ae
+UID:stay-house-3-2025-12-31-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20260104
+DTEND;VALUE=DATE:20260105
+UID:checkout-house-3-2026-01-04-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
@@ -306,16 +198,28 @@ SUMMARY:Horace greeley (Vrbo) - Reserved - Chance (02/05/2026 - 02/08/2026
  )
 DTSTART;VALUE=DATE:20260205
 DTEND;VALUE=DATE:20260208
-DTSTAMP:20260605T163701Z
-UID:5ae8041e-c2b8-4e41-be37-484b8ec54191
+UID:stay-house-3-2026-02-05-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20260208
+DTEND;VALUE=DATE:20260209
+UID:checkout-house-3-2026-02-08-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Horace greeley (Vrbo) - Reserved - Tyler (03/20/2026 - 03/22/2026)
 DTSTART;VALUE=DATE:20260320
 DTEND;VALUE=DATE:20260322
-DTSTAMP:20260605T163701Z
-UID:5a2bd042-084e-4c27-ba5f-7dbeddb2b9d3
+UID:stay-house-3-2026-03-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20260322
+DTEND;VALUE=DATE:20260323
+UID:checkout-house-3-2026-03-22-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
@@ -323,8 +227,14 @@ SUMMARY:Horace greeley (Vrbo) - Reserved - MIGUEL (05/13/2026 - 05/17/2026
  )
 DTSTART;VALUE=DATE:20260513
 DTEND;VALUE=DATE:20260517
-DTSTAMP:20260605T163701Z
-UID:e0d96364-1a5e-496e-b7ed-b307ab6bdc7b
+UID:stay-house-3-2026-05-13-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+UID:checkout-house-3-2026-05-17-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
@@ -332,8 +242,14 @@ SUMMARY:Horace greeley (Vrbo) - Reserved - Amanda (05/22/2026 - 05/25/2026
  )
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260525
-DTSTAMP:20260605T163701Z
-UID:8d27fe5c-c29f-4418-8e54-f90b2754e46a
+UID:stay-house-3-2026-05-22-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+UID:checkout-house-3-2026-05-25-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
@@ -341,48 +257,356 @@ SUMMARY:Horace greeley (Vrbo) - Reserved - Joshua (06/20/2026 - 06/22/2026
  )
 DTSTART;VALUE=DATE:20260620
 DTEND;VALUE=DATE:20260622
-DTSTAMP:20260605T163701Z
-UID:29141da3-b32f-4687-8aa3-e30a87c13a41
+UID:stay-house-3-2026-06-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+UID:checkout-house-3-2026-06-22-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Horace greeley (Vrbo) - Reserved - James (07/01/2026 - 07/06/2026)
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260706
-DTSTAMP:20260605T163701Z
-UID:60a80b66-b690-4615-b80e-4b0c2f64f695
+UID:stay-house-3-2026-07-01-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20260706
+DTEND;VALUE=DATE:20260707
+UID:checkout-house-3-2026-07-06-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (07/10/2026 - 07/12/2026)
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260712
+UID:stay-house-3-2026-07-10-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb) -- BACK-TO-BACK TURN
+ OVER\, same-day check-in
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+UID:checkout-house-3-2026-07-12-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Airbnb (Not available) (07/12/2026 - 07/
+ 13/2026)
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+UID:stay-house-3-2026-07-12-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
+UID:checkout-house-3-2026-07-13-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Horace greeley (Vrbo) - Reserved - Julie (07/12/2026 - 07/17/2026)
 DTSTART;VALUE=DATE:20260712
 DTEND;VALUE=DATE:20260717
-DTSTAMP:20260605T163701Z
-UID:27f19b7a-cffd-49c3-b2af-e8d489f518d2
+UID:stay-house-3-2026-07-12-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo) -- BACK-TO-BACK TURNOV
+ ER\, same-day check-in
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+UID:checkout-house-3-2026-07-17-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (07/17/2026 - 07/19/2026)
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260719
+UID:stay-house-3-2026-07-17-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+UID:checkout-house-3-2026-07-19-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (07/20/2026 - 07/24/2026)
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260724
+UID:stay-house-3-2026-07-20-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb) -- BACK-TO-BACK TURN
+ OVER\, same-day check-in
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+UID:checkout-house-3-2026-07-24-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (07/24/2026 - 07/26/2026)
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260726
+UID:stay-house-3-2026-07-24-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb) -- BACK-TO-BACK TURN
+ OVER\, same-day check-in
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
+UID:checkout-house-3-2026-07-26-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Horace greeley (Vrbo) - Reserved - Donna (07/26/2026 - 08/02/2026)
 DTSTART;VALUE=DATE:20260726
 DTEND;VALUE=DATE:20260802
-DTSTAMP:20260605T163701Z
-UID:179f7461-857f-4b87-bc96-0dcae598773f
+UID:stay-house-3-2026-07-26-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+UID:checkout-house-3-2026-08-02-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Horace greeley (Vrbo) - Reserved - Craig (08/03/2026 - 08/10/2026)
 DTSTART;VALUE=DATE:20260803
 DTEND;VALUE=DATE:20260810
-DTSTAMP:20260605T163701Z
-UID:c8aeff57-bcb3-4760-b511-d64f388fe3f9
+UID:stay-house-3-2026-08-03-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+UID:checkout-house-3-2026-08-10-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (08/13/2026 - 08/16/2026)
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260816
+UID:stay-house-3-2026-08-13-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
+UID:checkout-house-3-2026-08-16-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (08/21/2026 - 08/23/2026)
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260823
+UID:stay-house-3-2026-08-21-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+UID:checkout-house-3-2026-08-23-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (08/28/2026 - 08/30/2026)
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260830
+UID:stay-house-3-2026-08-28-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+UID:checkout-house-3-2026-08-30-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (09/03/2026 - 09/07/2026)
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260907
+UID:stay-house-3-2026-09-03-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+UID:checkout-house-3-2026-09-07-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (09/11/2026 - 09/13/2026)
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260913
+UID:stay-house-3-2026-09-11-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+UID:checkout-house-3-2026-09-13-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (09/18/2026 - 09/21/2026)
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260921
+UID:stay-house-3-2026-09-18-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+UID:checkout-house-3-2026-09-21-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (09/25/2026 - 09/27/2026)
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260927
+UID:stay-house-3-2026-09-25-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+UID:checkout-house-3-2026-09-27-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (10/09/2026 - 10/11/2026)
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261011
+UID:stay-house-3-2026-10-09-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+UID:checkout-house-3-2026-10-11-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Horace greeley (Vrbo) - Reserved - Karin (11/25/2026 - 11/29/2026)
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261129
-DTSTAMP:20260605T163701Z
-UID:076c2ebf-7d55-44bb-8d1f-587f52a70f50
+UID:stay-house-3-2026-11-25-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Vrbo)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+UID:checkout-house-3-2026-11-29-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (12/18/2026 - 12/23/2026)
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261223
+UID:stay-house-3-2026-12-18-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+UID:checkout-house-3-2026-12-23-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (12/30/2026 - 01/04/2027)
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20270104
+UID:stay-house-3-2026-12-30-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+UID:checkout-house-3-2027-01-04-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (01/08/2027 - 01/10/2027)
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270110
+UID:stay-house-3-2027-01-08-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+UID:checkout-house-3-2027-01-10-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (01/15/2027 - 01/18/2027)
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270118
+UID:stay-house-3-2027-01-15-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+UID:checkout-house-3-2027-01-18-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (02/04/2027 - 02/07/2027)
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270207
+UID:stay-house-3-2027-02-04-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+UID:checkout-house-3-2027-02-07-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Airbnb (Not available) (07/07/2027 - 07/
+ 14/2027)
+DTSTART;VALUE=DATE:20270707
+DTEND;VALUE=DATE:20270714
+UID:stay-house-3-2027-07-07-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - Checkout / Cleaning (Airbnb)
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270715
+UID:checkout-house-3-2027-07-14-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 END:VCALENDAR
