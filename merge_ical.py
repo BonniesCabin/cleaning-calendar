@@ -6,28 +6,27 @@ Output:
   docs/cleaning.ics              -> ALL houses, ALL platforms combined
   docs/cleaning_<slug>.ics       -> one file PER house
 
-For each house, two kinds of events are generated per reservation:
-  1. A "stay" event spanning check-in to check-out (informational,
-     matches what Airbnb/Vrbo show). Note: per the iCal spec, the
-     checkout date itself is NOT rendered as part of a multi-day
-     all-day event by most calendar apps (Apple Calendar included) --
-     that's expected behavior for the underlying data.
-  2. A dedicated single-day "Checkout / Cleaning" event placed
-     EXACTLY on the checkout date, so it always shows up on that
-     day. If the next reservation for the same house checks in on
-     that same date, the event is flagged as a BACK-TO-BACK TURNOVER
-     so the cleaning team knows they need to turn the house around
-     same-day.
+For each reservation, three events are generated:
+  1. A "stay" event spanning check-in to check-out (all-day,
+     informational, matches what Airbnb/Vrbo show).
+  2. A timed CHECKOUT / CLEANING event at 11:00 AM on the checkout
+     date. If the next reservation for the same house checks in that
+     same day, it's flagged as a BACK-TO-BACK TURNOVER.
+  3. A timed CHECK-IN event at 3:00 PM on the check-in date.
+
+Times are configurable below (CHECKIN_HOUR / CHECKOUT_HOUR) and the
+timezone can be set in config.json with a top-level "timezone" key
+(IANA name, e.g. "America/Los_Angeles"). Defaults to Pacific time.
 
 Each event is tagged with CATEGORIES = house name, so calendar apps
-that support filtering/coloring by category (Outlook, Apple Calendar)
-can sort by house automatically.
+that support filtering/coloring by category can sort by house.
 """
 
 import json
 import sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import requests
 from icalendar import Calendar, Event
@@ -35,10 +34,17 @@ from icalendar import Calendar, Event
 CONFIG_PATH = Path(__file__).parent / "config.json"
 DOCS_DIR = Path(__file__).parent / "docs"
 
+CHECKIN_HOUR = 15   # 3:00 PM
+CHECKOUT_HOUR = 11  # 11:00 AM
+DEFAULT_TIMEZONE = "America/Los_Angeles"
+EVENT_DURATION_HOURS = 1  # display length of timed events
+
 
 def load_config():
     with open(CONFIG_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)["properties"]
+        data = json.load(f)
+    tz_name = data.get("timezone", DEFAULT_TIMEZONE)
+    return data["properties"], ZoneInfo(tz_name)
 
 
 def fetch_calendar(url: str) -> Calendar:
@@ -102,8 +108,7 @@ def collect_house_events(prop):
 
 
 def make_allday_event(uid: str, summary: str, start: date, end: date, categories: str) -> Event:
-    """Create an all-day VEVENT spanning [start, end) (end exclusive,
-    per iCal convention)."""
+    """All-day VEVENT spanning [start, end) (end exclusive)."""
     ev = Event()
     ev.add("uid", uid)
     ev.add("summary", summary)
@@ -113,10 +118,26 @@ def make_allday_event(uid: str, summary: str, start: date, end: date, categories
     return ev
 
 
-def build_calendars(properties):
+def make_timed_event(uid: str, summary: str, day: date, hour: int, tz, categories: str) -> Event:
+    """Timed VEVENT on a given day at a given local hour."""
+    start_dt = datetime(day.year, day.month, day.day, hour, 0, tzinfo=tz)
+    ev = Event()
+    ev.add("uid", uid)
+    ev.add("summary", summary)
+    ev.add("dtstart", start_dt)
+    ev.add("dtend", start_dt + timedelta(hours=EVENT_DURATION_HOURS))
+    ev.add("categories", categories)
+    return ev
+
+
+def build_calendars(properties, tz):
     global_cal = new_calendar("Cleaning schedule - all houses")
     per_house_cals = {}
     total_events = 0
+
+    def add_to_both(house_cal, ev):
+        global_cal.add_component(ev)
+        house_cal.add_component(ev)
 
     for prop in properties:
         name = prop["name"]
@@ -130,37 +151,40 @@ def build_calendars(properties):
             start = res["start"]
             checkout = res["end"]
 
-            # 1) Informational "stay" event (check-in through the
-            #    night before checkout, per iCal convention).
+            # 1) Informational all-day "stay" event.
             stay_summary = (
                 f"{name} ({platform}) - {res['summary']} "
                 f"({us_date(start)} - {us_date(checkout)})"
             )
             stay_uid = f"stay-{slug}-{start.isoformat()}-{platform}@cleaning-sync"
-            stay_event = make_allday_event(stay_uid, stay_summary, start, checkout, name)
-            global_cal.add_component(stay_event)
-            house_cal.add_component(stay_event)
+            add_to_both(
+                house_cal,
+                make_allday_event(stay_uid, stay_summary, start, checkout, name),
+            )
             total_events += 1
 
-            # 2) Dedicated checkout/cleaning marker, placed exactly on
-            #    the checkout date so it's never hidden.
+            # 2) Timed CHECK-IN event at 3:00 PM.
+            checkin_summary = f"{name} - CHECK-IN 3:00 PM ({platform})"
+            checkin_uid = f"checkin-{slug}-{start.isoformat()}-{platform}@cleaning-sync"
+            add_to_both(
+                house_cal,
+                make_timed_event(checkin_uid, checkin_summary, start, CHECKIN_HOUR, tz, name),
+            )
+            total_events += 1
+
+            # 3) Timed CHECKOUT / CLEANING event at 11:00 AM.
             is_back_to_back = (
                 i + 1 < len(reservations) and reservations[i + 1]["start"] == checkout
             )
-            checkout_summary = f"{name} - Checkout / Cleaning ({platform})"
+            checkout_summary = f"{name} - CHECKOUT 11:00 AM / Cleaning ({platform})"
             if is_back_to_back:
-                checkout_summary += " -- BACK-TO-BACK TURNOVER, same-day check-in"
+                checkout_summary += " -- BACK-TO-BACK, next guest 3:00 PM"
 
             checkout_uid = f"checkout-{slug}-{checkout.isoformat()}-{platform}@cleaning-sync"
-            checkout_event = make_allday_event(
-                checkout_uid,
-                checkout_summary,
-                checkout,
-                checkout + timedelta(days=1),
-                name,
+            add_to_both(
+                house_cal,
+                make_timed_event(checkout_uid, checkout_summary, checkout, CHECKOUT_HOUR, tz, name),
             )
-            global_cal.add_component(checkout_event)
-            house_cal.add_component(checkout_event)
             total_events += 1
 
         per_house_cals[slug] = house_cal
@@ -177,8 +201,8 @@ def write_calendar(cal: Calendar, path: Path):
 
 
 def main():
-    properties = load_config()
-    global_cal, per_house_cals = build_calendars(properties)
+    properties, tz = load_config()
+    global_cal, per_house_cals = build_calendars(properties, tz)
 
     write_calendar(global_cal, DOCS_DIR / "cleaning.ics")
     for slug, cal in per_house_cals.items():
