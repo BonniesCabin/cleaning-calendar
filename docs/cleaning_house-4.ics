@@ -87,25 +87,25 @@ UID:checkout-house-4-2026-07-25-Vrbo@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Colorado (Airbnb) - Airbnb (Not available) (07/14/2026 - 07/16/202
+SUMMARY:Colorado (Airbnb) - Airbnb (Not available) (07/15/2026 - 07/17/202
  6)
-DTSTART;VALUE=DATE:20260714
-DTEND;VALUE=DATE:20260716
-UID:stay-house-4-2026-07-14-Airbnb@cleaning-sync
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260717
+UID:stay-house-4-2026-07-15-Airbnb@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Colorado - CHECK-IN 3:00 PM (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20260714T150000
-DTEND;TZID=America/Los_Angeles:20260714T160000
-UID:checkin-house-4-2026-07-14-Airbnb@cleaning-sync
+DTSTART;TZID=America/Los_Angeles:20260715T150000
+DTEND;TZID=America/Los_Angeles:20260715T160000
+UID:checkin-house-4-2026-07-15-Airbnb@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20260716T110000
-DTEND;TZID=America/Los_Angeles:20260716T120000
-UID:checkout-house-4-2026-07-16-Airbnb@cleaning-sync
+DTSTART;TZID=America/Los_Angeles:20260717T110000
+DTEND;TZID=America/Los_Angeles:20260717T120000
+UID:checkout-house-4-2026-07-17-Airbnb@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
@@ -236,25 +236,25 @@ UID:checkout-house-4-2026-09-08-Airbnb@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Colorado (Airbnb) - Airbnb (Not available) (04/10/2027 - 07/15/202
+SUMMARY:Colorado (Airbnb) - Airbnb (Not available) (04/11/2027 - 07/16/202
  7)
-DTSTART;VALUE=DATE:20270410
-DTEND;VALUE=DATE:20270715
-UID:stay-house-4-2027-04-10-Airbnb@cleaning-sync
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270716
+UID:stay-house-4-2027-04-11-Airbnb@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Colorado - CHECK-IN 3:00 PM (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20270410T150000
-DTEND;TZID=America/Los_Angeles:20270410T160000
-UID:checkin-house-4-2027-04-10-Airbnb@cleaning-sync
+DTSTART;TZID=America/Los_Angeles:20270411T150000
+DTEND;TZID=America/Los_Angeles:20270411T160000
+UID:checkin-house-4-2027-04-11-Airbnb@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20270715T110000
-DTEND;TZID=America/Los_Angeles:20270715T120000
-UID:checkout-house-4-2027-07-15-Airbnb@cleaning-sync
+DTSTART;TZID=America/Los_Angeles:20270716T110000
+DTEND;TZID=America/Los_Angeles:20270716T120000
+UID:checkout-house-4-2027-07-16-Airbnb@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 END:VCALENDAR
