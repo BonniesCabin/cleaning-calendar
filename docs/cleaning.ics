@@ -430,10 +430,10 @@ UID:checkout-house-1-2026-12-28-Airbnb@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Harvard (Airbnb) - Airbnb (Not available) (07/10/2027 - 07/16/2027
+SUMMARY:Harvard (Airbnb) - Airbnb (Not available) (07/10/2027 - 07/17/2027
  )
 DTSTART;VALUE=DATE:20270710
-DTEND;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
 UID:stay-house-1-2027-07-10-Airbnb@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
@@ -446,9 +446,9 @@ CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20270716T110000
-DTEND;TZID=America/Los_Angeles:20270716T120000
-UID:checkout-house-1-2027-07-16-Airbnb@cleaning-sync
+DTSTART;TZID=America/Los_Angeles:20270717T110000
+DTEND;TZID=America/Los_Angeles:20270717T120000
+UID:checkout-house-1-2027-07-17-Airbnb@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
@@ -851,10 +851,10 @@ UID:checkout-house-2-2027-03-29-Vrbo@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Needle peak (Airbnb) - Airbnb (Not available) (07/10/2027 - 07/16/
+SUMMARY:Needle peak (Airbnb) - Airbnb (Not available) (07/10/2027 - 07/17/
  2027)
 DTSTART;VALUE=DATE:20270710
-DTEND;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
 UID:stay-house-2-2027-07-10-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
@@ -867,9 +867,9 @@ CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20270716T110000
-DTEND;TZID=America/Los_Angeles:20270716T120000
-UID:checkout-house-2-2027-07-16-Airbnb@cleaning-sync
+DTSTART;TZID=America/Los_Angeles:20270717T110000
+DTEND;TZID=America/Los_Angeles:20270717T120000
+UID:checkout-house-2-2027-07-17-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
@@ -1730,9 +1730,9 @@ CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Horace greeley (Airbnb) - Airbnb (Not available) (07/10/2027 - 07/
- 16/2027)
+ 17/2027)
 DTSTART;VALUE=DATE:20270710
-DTEND;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
 UID:stay-house-3-2027-07-10-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
@@ -1745,9 +1745,9 @@ CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20270716T110000
-DTEND;TZID=America/Los_Angeles:20270716T120000
-UID:checkout-house-3-2027-07-16-Airbnb@cleaning-sync
+DTSTART;TZID=America/Los_Angeles:20270717T110000
+DTEND;TZID=America/Los_Angeles:20270717T120000
+UID:checkout-house-3-2027-07-17-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
@@ -1984,10 +1984,10 @@ UID:checkout-house-4-2026-09-08-Airbnb@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Colorado (Airbnb) - Airbnb (Not available) (04/11/2027 - 07/16/202
+SUMMARY:Colorado (Airbnb) - Airbnb (Not available) (04/11/2027 - 07/17/202
  7)
 DTSTART;VALUE=DATE:20270411
-DTEND;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
 UID:stay-house-4-2027-04-11-Airbnb@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
@@ -2000,9 +2000,9 @@ CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20270716T110000
-DTEND;TZID=America/Los_Angeles:20270716T120000
-UID:checkout-house-4-2027-07-16-Airbnb@cleaning-sync
+DTSTART;TZID=America/Los_Angeles:20270717T110000
+DTEND;TZID=America/Los_Angeles:20270717T120000
+UID:checkout-house-4-2027-07-17-Airbnb@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
