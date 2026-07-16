@@ -430,18 +430,18 @@ UID:checkout-house-1-2026-12-28-Airbnb@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Harvard (Airbnb) - Airbnb (Not available) (07/10/2027 - 07/17/2027
+SUMMARY:Harvard (Airbnb) - Airbnb (Not available) (07/11/2027 - 07/17/2027
  )
-DTSTART;VALUE=DATE:20270710
+DTSTART;VALUE=DATE:20270711
 DTEND;VALUE=DATE:20270717
-UID:stay-house-1-2027-07-10-Airbnb@cleaning-sync
+UID:stay-house-1-2027-07-11-Airbnb@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Harvard - CHECK-IN 3:00 PM (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20270710T150000
-DTEND;TZID=America/Los_Angeles:20270710T160000
-UID:checkin-house-1-2027-07-10-Airbnb@cleaning-sync
+DTSTART;TZID=America/Los_Angeles:20270711T150000
+DTEND;TZID=America/Los_Angeles:20270711T160000
+UID:checkin-house-1-2027-07-11-Airbnb@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
