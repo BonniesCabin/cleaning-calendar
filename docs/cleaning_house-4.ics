@@ -3,6 +3,70 @@ VERSION:2.0
 PRODID:-//Multi-House Cleaning Sync//EN
 X-WR-CALNAME:Cleaning schedule - Colorado
 BEGIN:VEVENT
+SUMMARY:Colorado (Vrbo) - Reserved - Leah (12/30/2025 - 01/02/2026)
+DTSTART;VALUE=DATE:20251230
+DTEND;VALUE=DATE:20260102
+UID:stay-house-4-2025-12-30-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20251230T150000
+DTEND;TZID=America/Los_Angeles:20251230T160000
+UID:checkin-house-4-2025-12-30-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260102T110000
+DTEND;TZID=America/Los_Angeles:20260102T120000
+UID:checkout-house-4-2026-01-02-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado (Vrbo) - Reserved - Jennifer (06/12/2026 - 06/15/2026)
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260615
+UID:stay-house-4-2026-06-12-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260612T150000
+DTEND;TZID=America/Los_Angeles:20260612T160000
+UID:checkin-house-4-2026-06-12-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260615T110000
+DTEND;TZID=America/Los_Angeles:20260615T120000
+UID:checkout-house-4-2026-06-15-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado (Vrbo) - Reserved - Kathy (07/11/2026 - 07/25/2026)
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260725
+UID:stay-house-4-2026-07-11-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260711T150000
+DTEND;TZID=America/Los_Angeles:20260711T160000
+UID:checkin-house-4-2026-07-11-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BACK\, n
+ ext guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20260725T110000
+DTEND;TZID=America/Los_Angeles:20260725T120000
+UID:checkout-house-4-2026-07-25-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Colorado (Airbnb) - Reserved (07/25/2026 - 07/31/2026)
 DTSTART;VALUE=DATE:20260725
 DTEND;VALUE=DATE:20260731
@@ -17,10 +81,32 @@ UID:checkin-house-4-2026-07-25-Airbnb@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Airbnb) -- BACK-TO-BACK\,
+  next guest 3:00 PM
 DTSTART;TZID=America/Los_Angeles:20260731T110000
 DTEND;TZID=America/Los_Angeles:20260731T120000
 UID:checkout-house-4-2026-07-31-Airbnb@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado (Vrbo) - Reserved - Hieu (07/31/2026 - 08/03/2026)
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260803
+UID:stay-house-4-2026-07-31-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260731T150000
+DTEND;TZID=America/Los_Angeles:20260731T160000
+UID:checkin-house-4-2026-07-31-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260803T110000
+DTEND;TZID=America/Los_Angeles:20260803T120000
+UID:checkout-house-4-2026-08-03-Vrbo@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
@@ -42,6 +128,27 @@ SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Airbnb)
 DTSTART;TZID=America/Los_Angeles:20260809T110000
 DTEND;TZID=America/Los_Angeles:20260809T120000
 UID:checkout-house-4-2026-08-09-Airbnb@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado (Vrbo) - Reserved - Ranfie (08/12/2026 - 08/16/2026)
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260816
+UID:stay-house-4-2026-08-12-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260812T150000
+DTEND;TZID=America/Los_Angeles:20260812T160000
+UID:checkin-house-4-2026-08-12-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260816T110000
+DTEND;TZID=America/Los_Angeles:20260816T120000
+UID:checkout-house-4-2026-08-16-Vrbo@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT

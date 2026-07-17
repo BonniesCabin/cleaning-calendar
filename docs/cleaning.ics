@@ -3,6 +3,69 @@ VERSION:2.0
 PRODID:-//Multi-House Cleaning Sync//EN
 X-WR-CALNAME:Cleaning schedule - all houses
 BEGIN:VEVENT
+SUMMARY:Harvard (Vrbo) - Reserved - Cassandra (02/15/2026 - 02/17/2026)
+DTSTART;VALUE=DATE:20260215
+DTEND;VALUE=DATE:20260217
+UID:stay-house-1-2026-02-15-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260215T150000
+DTEND;TZID=America/Los_Angeles:20260215T160000
+UID:checkin-house-1-2026-02-15-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260217T110000
+DTEND;TZID=America/Los_Angeles:20260217T120000
+UID:checkout-house-1-2026-02-17-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard (Vrbo) - Reserved - Kasaundra (04/10/2026 - 04/12/2026)
+DTSTART;VALUE=DATE:20260410
+DTEND;VALUE=DATE:20260412
+UID:stay-house-1-2026-04-10-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260410T150000
+DTEND;TZID=America/Los_Angeles:20260410T160000
+UID:checkin-house-1-2026-04-10-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260412T110000
+DTEND;TZID=America/Los_Angeles:20260412T120000
+UID:checkout-house-1-2026-04-12-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard (Vrbo) - Reserved - Elizabeth (06/07/2026 - 06/13/2026)
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260613
+UID:stay-house-1-2026-06-07-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260607T150000
+DTEND;TZID=America/Los_Angeles:20260607T160000
+UID:checkin-house-1-2026-06-07-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260613T110000
+DTEND;TZID=America/Los_Angeles:20260613T120000
+UID:checkout-house-1-2026-06-13-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Harvard (Airbnb) - Reserved (07/15/2026 - 07/17/2026)
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260717
@@ -39,10 +102,55 @@ UID:checkin-house-1-2026-07-17-Airbnb@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Airbnb) -- BACK-TO-BACK\, 
+ next guest 3:00 PM
 DTSTART;TZID=America/Los_Angeles:20260720T110000
 DTEND;TZID=America/Los_Angeles:20260720T120000
 UID:checkout-house-1-2026-07-20-Airbnb@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard (Vrbo) - Reserved - Cassie (07/20/2026 - 07/23/2026)
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260723
+UID:stay-house-1-2026-07-20-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260720T150000
+DTEND;TZID=America/Los_Angeles:20260720T160000
+UID:checkin-house-1-2026-07-20-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BACK\, ne
+ xt guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20260723T110000
+DTEND;TZID=America/Los_Angeles:20260723T120000
+UID:checkout-house-1-2026-07-23-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard (Vrbo) - Reserved - Kimberly (07/23/2026 - 07/27/2026)
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260727
+UID:stay-house-1-2026-07-23-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260723T150000
+DTEND;TZID=America/Los_Angeles:20260723T160000
+UID:checkin-house-1-2026-07-23-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BACK\, ne
+ xt guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20260727T110000
+DTEND;TZID=America/Los_Angeles:20260727T120000
+UID:checkout-house-1-2026-07-27-Vrbo@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
@@ -174,6 +282,27 @@ UID:checkout-house-1-2026-08-24-Airbnb@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Harvard (Vrbo) - Reserved - Keeley (08/27/2026 - 08/30/2026)
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260830
+UID:stay-house-1-2026-08-27-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260827T150000
+DTEND;TZID=America/Los_Angeles:20260827T160000
+UID:checkin-house-1-2026-08-27-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260830T110000
+DTEND;TZID=America/Los_Angeles:20260830T120000
+UID:checkout-house-1-2026-08-30-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Harvard (Airbnb) - Reserved (09/06/2026 - 09/09/2026)
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20260909
@@ -279,6 +408,111 @@ UID:checkout-house-1-2026-12-28-Airbnb@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Needle peak (Vrbo) - Reserved - Cameron (11/14/2025 - 11/16/2025)
+DTSTART;VALUE=DATE:20251114
+DTEND;VALUE=DATE:20251116
+UID:stay-house-2-2025-11-14-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20251114T150000
+DTEND;TZID=America/Los_Angeles:20251114T160000
+UID:checkin-house-2-2025-11-14-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20251116T110000
+DTEND;TZID=America/Los_Angeles:20251116T120000
+UID:checkout-house-2-2025-11-16-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak (Vrbo) - Reserved - Louis (01/16/2026 - 01/19/2026)
+DTSTART;VALUE=DATE:20260116
+DTEND;VALUE=DATE:20260119
+UID:stay-house-2-2026-01-16-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260116T150000
+DTEND;TZID=America/Los_Angeles:20260116T160000
+UID:checkin-house-2-2026-01-16-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260119T110000
+DTEND;TZID=America/Los_Angeles:20260119T120000
+UID:checkout-house-2-2026-01-19-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak (Vrbo) - Reserved - Joshua (02/14/2026 - 02/17/2026)
+DTSTART;VALUE=DATE:20260214
+DTEND;VALUE=DATE:20260217
+UID:stay-house-2-2026-02-14-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260214T150000
+DTEND;TZID=America/Los_Angeles:20260214T160000
+UID:checkin-house-2-2026-02-14-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260217T110000
+DTEND;TZID=America/Los_Angeles:20260217T120000
+UID:checkout-house-2-2026-02-17-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak (Vrbo) - Reserved - Kris (03/02/2026 - 03/05/2026)
+DTSTART;VALUE=DATE:20260302
+DTEND;VALUE=DATE:20260305
+UID:stay-house-2-2026-03-02-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260302T150000
+DTEND;TZID=America/Los_Angeles:20260302T160000
+UID:checkin-house-2-2026-03-02-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260305T110000
+DTEND;TZID=America/Los_Angeles:20260305T120000
+UID:checkout-house-2-2026-03-05-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak (Vrbo) - Reserved - Lynn (07/17/2026 - 07/20/2026)
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260720
+UID:stay-house-2-2026-07-17-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260717T150000
+DTEND;TZID=America/Los_Angeles:20260717T160000
+UID:checkin-house-2-2026-07-17-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260720T110000
+DTEND;TZID=America/Los_Angeles:20260720T120000
+UID:checkout-house-2-2026-07-20-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Needle peak (Airbnb) - Reserved (07/21/2026 - 07/23/2026)
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260723
@@ -297,6 +531,48 @@ SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
 DTSTART;TZID=America/Los_Angeles:20260723T110000
 DTEND;TZID=America/Los_Angeles:20260723T120000
 UID:checkout-house-2-2026-07-23-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak (Airbnb) - Reserved (07/21/2026 - 07/23/2026)
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260723
+UID:stay-house-2-2026-07-21-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260721T150000
+DTEND;TZID=America/Los_Angeles:20260721T160000
+UID:checkin-house-2-2026-07-21-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260723T110000
+DTEND;TZID=America/Los_Angeles:20260723T120000
+UID:checkout-house-2-2026-07-23-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak (Airbnb) - Reserved (07/24/2026 - 07/30/2026)
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260730
+UID:stay-house-2-2026-07-24-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260724T150000
+DTEND;TZID=America/Los_Angeles:20260724T160000
+UID:checkin-house-2-2026-07-24-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260730T110000
+DTEND;TZID=America/Los_Angeles:20260730T120000
+UID:checkout-house-2-2026-07-30-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
@@ -342,6 +618,27 @@ UID:checkout-house-2-2026-08-04-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Needle peak (Airbnb) - Reserved (08/01/2026 - 08/04/2026)
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260804
+UID:stay-house-2-2026-08-01-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260801T150000
+DTEND;TZID=America/Los_Angeles:20260801T160000
+UID:checkin-house-2-2026-08-01-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260804T110000
+DTEND;TZID=America/Los_Angeles:20260804T120000
+UID:checkout-house-2-2026-08-04-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Needle peak (Airbnb) - Reserved (08/07/2026 - 08/09/2026)
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260809
@@ -360,6 +657,48 @@ SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
 DTSTART;TZID=America/Los_Angeles:20260809T110000
 DTEND;TZID=America/Los_Angeles:20260809T120000
 UID:checkout-house-2-2026-08-09-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak (Airbnb) - Reserved (08/07/2026 - 08/09/2026)
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260809
+UID:stay-house-2-2026-08-07-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260807T150000
+DTEND;TZID=America/Los_Angeles:20260807T160000
+UID:checkin-house-2-2026-08-07-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260809T110000
+DTEND;TZID=America/Los_Angeles:20260809T120000
+UID:checkout-house-2-2026-08-09-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak (Airbnb) - Reserved (08/13/2026 - 08/17/2026)
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260817
+UID:stay-house-2-2026-08-13-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260813T150000
+DTEND;TZID=America/Los_Angeles:20260813T160000
+UID:checkin-house-2-2026-08-13-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260817T110000
+DTEND;TZID=America/Los_Angeles:20260817T120000
+UID:checkout-house-2-2026-08-17-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
@@ -405,6 +744,27 @@ UID:checkout-house-2-2026-08-23-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Needle peak (Airbnb) - Reserved (08/21/2026 - 08/23/2026)
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260823
+UID:stay-house-2-2026-08-21-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260821T150000
+DTEND;TZID=America/Los_Angeles:20260821T160000
+UID:checkin-house-2-2026-08-21-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260823T110000
+DTEND;TZID=America/Los_Angeles:20260823T120000
+UID:checkout-house-2-2026-08-23-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Needle peak (Airbnb) - Reserved (08/28/2026 - 08/30/2026)
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260830
@@ -423,6 +783,48 @@ SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
 DTSTART;TZID=America/Los_Angeles:20260830T110000
 DTEND;TZID=America/Los_Angeles:20260830T120000
 UID:checkout-house-2-2026-08-30-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak (Airbnb) - Reserved (08/28/2026 - 08/30/2026)
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260830
+UID:stay-house-2-2026-08-28-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260828T150000
+DTEND;TZID=America/Los_Angeles:20260828T160000
+UID:checkin-house-2-2026-08-28-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260830T110000
+DTEND;TZID=America/Los_Angeles:20260830T120000
+UID:checkout-house-2-2026-08-30-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak (Airbnb) - Reserved (09/05/2026 - 09/08/2026)
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260908
+UID:stay-house-2-2026-09-05-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260905T150000
+DTEND;TZID=America/Los_Angeles:20260905T160000
+UID:checkin-house-2-2026-09-05-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260908T110000
+DTEND;TZID=America/Los_Angeles:20260908T120000
+UID:checkout-house-2-2026-09-08-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
@@ -468,6 +870,48 @@ UID:checkout-house-2-2026-09-13-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Needle peak (Airbnb) - Reserved (09/11/2026 - 09/13/2026)
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260913
+UID:stay-house-2-2026-09-11-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260911T150000
+DTEND;TZID=America/Los_Angeles:20260911T160000
+UID:checkin-house-2-2026-09-11-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260913T110000
+DTEND;TZID=America/Los_Angeles:20260913T120000
+UID:checkout-house-2-2026-09-13-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak (Airbnb) - Reserved (12/26/2026 - 12/31/2026)
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261231
+UID:stay-house-2-2026-12-26-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20261226T150000
+DTEND;TZID=America/Los_Angeles:20261226T160000
+UID:checkin-house-2-2026-12-26-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20261231T110000
+DTEND;TZID=America/Los_Angeles:20261231T120000
+UID:checkout-house-2-2026-12-31-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Needle peak (Airbnb) - Reserved (12/26/2026 - 12/31/2026)
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261231
@@ -508,6 +952,461 @@ DTSTART;TZID=America/Los_Angeles:20270106T110000
 DTEND;TZID=America/Los_Angeles:20270106T120000
 UID:checkout-house-2-2027-01-06-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak (Airbnb) - Reserved (01/02/2027 - 01/06/2027)
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270106
+UID:stay-house-2-2027-01-02-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270102T150000
+DTEND;TZID=America/Los_Angeles:20270102T160000
+UID:checkin-house-2-2027-01-02-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270106T110000
+DTEND;TZID=America/Los_Angeles:20270106T120000
+UID:checkout-house-2-2027-01-06-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak (Vrbo) - Reserved - Jessica (02/13/2027 - 02/22/2027)
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270222
+UID:stay-house-2-2027-02-13-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20270213T150000
+DTEND;TZID=America/Los_Angeles:20270213T160000
+UID:checkin-house-2-2027-02-13-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20270222T110000
+DTEND;TZID=America/Los_Angeles:20270222T120000
+UID:checkout-house-2-2027-02-22-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Khristine (06/07/2025 - 06/13/2
+ 025)
+DTSTART;VALUE=DATE:20250607
+DTEND;VALUE=DATE:20250613
+UID:stay-house-3-2025-06-07-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250607T150000
+DTEND;TZID=America/Los_Angeles:20250607T160000
+UID:checkin-house-3-2025-06-07-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250613T110000
+DTEND;TZID=America/Los_Angeles:20250613T120000
+UID:checkout-house-3-2025-06-13-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Jason (06/19/2025 - 06/22/2025)
+DTSTART;VALUE=DATE:20250619
+DTEND;VALUE=DATE:20250622
+UID:stay-house-3-2025-06-19-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250619T150000
+DTEND;TZID=America/Los_Angeles:20250619T160000
+UID:checkin-house-3-2025-06-19-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250622T110000
+DTEND;TZID=America/Los_Angeles:20250622T120000
+UID:checkout-house-3-2025-06-22-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Cynthia (06/23/2025 - 07/01/202
+ 5)
+DTSTART;VALUE=DATE:20250623
+DTEND;VALUE=DATE:20250701
+UID:stay-house-3-2025-06-23-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250623T150000
+DTEND;TZID=America/Los_Angeles:20250623T160000
+UID:checkin-house-3-2025-06-23-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250701T110000
+DTEND;TZID=America/Los_Angeles:20250701T120000
+UID:checkout-house-3-2025-07-01-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Anthony (07/06/2025 - 07/10/202
+ 5)
+DTSTART;VALUE=DATE:20250706
+DTEND;VALUE=DATE:20250710
+UID:stay-house-3-2025-07-06-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250706T150000
+DTEND;TZID=America/Los_Angeles:20250706T160000
+UID:checkin-house-3-2025-07-06-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BA
+ CK\, next guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20250710T110000
+DTEND;TZID=America/Los_Angeles:20250710T120000
+UID:checkout-house-3-2025-07-10-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Jonathan (07/10/2025 - 07/13/20
+ 25)
+DTSTART;VALUE=DATE:20250710
+DTEND;VALUE=DATE:20250713
+UID:stay-house-3-2025-07-10-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250710T150000
+DTEND;TZID=America/Los_Angeles:20250710T160000
+UID:checkin-house-3-2025-07-10-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250713T110000
+DTEND;TZID=America/Los_Angeles:20250713T120000
+UID:checkout-house-3-2025-07-13-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - imz (07/18/2025 - 07/20/2025)
+DTSTART;VALUE=DATE:20250718
+DTEND;VALUE=DATE:20250720
+UID:stay-house-3-2025-07-18-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250718T150000
+DTEND;TZID=America/Los_Angeles:20250718T160000
+UID:checkin-house-3-2025-07-18-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BA
+ CK\, next guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20250720T110000
+DTEND;TZID=America/Los_Angeles:20250720T120000
+UID:checkout-house-3-2025-07-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Gretchen (07/20/2025 - 07/24/20
+ 25)
+DTSTART;VALUE=DATE:20250720
+DTEND;VALUE=DATE:20250724
+UID:stay-house-3-2025-07-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250720T150000
+DTEND;TZID=America/Los_Angeles:20250720T160000
+UID:checkin-house-3-2025-07-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250724T110000
+DTEND;TZID=America/Los_Angeles:20250724T120000
+UID:checkout-house-3-2025-07-24-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Joseph (07/25/2025 - 07/30/2025
+ )
+DTSTART;VALUE=DATE:20250725
+DTEND;VALUE=DATE:20250730
+UID:stay-house-3-2025-07-25-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250725T150000
+DTEND;TZID=America/Los_Angeles:20250725T160000
+UID:checkin-house-3-2025-07-25-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250730T110000
+DTEND;TZID=America/Los_Angeles:20250730T120000
+UID:checkout-house-3-2025-07-30-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Jacob w (09/05/2025 - 09/07/202
+ 5)
+DTSTART;VALUE=DATE:20250905
+DTEND;VALUE=DATE:20250907
+UID:stay-house-3-2025-09-05-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250905T150000
+DTEND;TZID=America/Los_Angeles:20250905T160000
+UID:checkin-house-3-2025-09-05-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250907T110000
+DTEND;TZID=America/Los_Angeles:20250907T120000
+UID:checkout-house-3-2025-09-07-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Sarah (09/26/2025 - 09/28/2025)
+DTSTART;VALUE=DATE:20250926
+DTEND;VALUE=DATE:20250928
+UID:stay-house-3-2025-09-26-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250926T150000
+DTEND;TZID=America/Los_Angeles:20250926T160000
+UID:checkin-house-3-2025-09-26-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250928T110000
+DTEND;TZID=America/Los_Angeles:20250928T120000
+UID:checkout-house-3-2025-09-28-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Lisa (12/21/2025 - 12/27/2025)
+DTSTART;VALUE=DATE:20251221
+DTEND;VALUE=DATE:20251227
+UID:stay-house-3-2025-12-21-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20251221T150000
+DTEND;TZID=America/Los_Angeles:20251221T160000
+UID:checkin-house-3-2025-12-21-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20251227T110000
+DTEND;TZID=America/Los_Angeles:20251227T120000
+UID:checkout-house-3-2025-12-27-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Marc (12/31/2025 - 01/04/2026)
+DTSTART;VALUE=DATE:20251231
+DTEND;VALUE=DATE:20260104
+UID:stay-house-3-2025-12-31-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20251231T150000
+DTEND;TZID=America/Los_Angeles:20251231T160000
+UID:checkin-house-3-2025-12-31-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260104T110000
+DTEND;TZID=America/Los_Angeles:20260104T120000
+UID:checkout-house-3-2026-01-04-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Chance (02/05/2026 - 02/08/2026
+ )
+DTSTART;VALUE=DATE:20260205
+DTEND;VALUE=DATE:20260208
+UID:stay-house-3-2026-02-05-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260205T150000
+DTEND;TZID=America/Los_Angeles:20260205T160000
+UID:checkin-house-3-2026-02-05-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260208T110000
+DTEND;TZID=America/Los_Angeles:20260208T120000
+UID:checkout-house-3-2026-02-08-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Tyler (03/20/2026 - 03/22/2026)
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260322
+UID:stay-house-3-2026-03-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260320T150000
+DTEND;TZID=America/Los_Angeles:20260320T160000
+UID:checkin-house-3-2026-03-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260322T110000
+DTEND;TZID=America/Los_Angeles:20260322T120000
+UID:checkout-house-3-2026-03-22-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - MIGUEL (05/13/2026 - 05/17/2026
+ )
+DTSTART;VALUE=DATE:20260513
+DTEND;VALUE=DATE:20260517
+UID:stay-house-3-2026-05-13-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260513T150000
+DTEND;TZID=America/Los_Angeles:20260513T160000
+UID:checkin-house-3-2026-05-13-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260517T110000
+DTEND;TZID=America/Los_Angeles:20260517T120000
+UID:checkout-house-3-2026-05-17-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Amanda (05/22/2026 - 05/25/2026
+ )
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260525
+UID:stay-house-3-2026-05-22-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260522T150000
+DTEND;TZID=America/Los_Angeles:20260522T160000
+UID:checkin-house-3-2026-05-22-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260525T110000
+DTEND;TZID=America/Los_Angeles:20260525T120000
+UID:checkout-house-3-2026-05-25-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Joshua (06/20/2026 - 06/22/2026
+ )
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260622
+UID:stay-house-3-2026-06-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260620T150000
+DTEND;TZID=America/Los_Angeles:20260620T160000
+UID:checkin-house-3-2026-06-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260622T110000
+DTEND;TZID=America/Los_Angeles:20260622T120000
+UID:checkout-house-3-2026-06-22-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - James (07/01/2026 - 07/06/2026)
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260706
+UID:stay-house-3-2026-07-01-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260701T150000
+DTEND;TZID=America/Los_Angeles:20260701T160000
+UID:checkin-house-3-2026-07-01-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260706T110000
+DTEND;TZID=America/Los_Angeles:20260706T120000
+UID:checkout-house-3-2026-07-06-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Julie (07/12/2026 - 07/17/2026)
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260717
+UID:stay-house-3-2026-07-12-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260712T150000
+DTEND;TZID=America/Los_Angeles:20260712T160000
+UID:checkin-house-3-2026-07-12-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BA
+ CK\, next guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20260717T110000
+DTEND;TZID=America/Los_Angeles:20260717T120000
+UID:checkout-house-3-2026-07-17-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Horace greeley (Airbnb) - Reserved (07/17/2026 - 07/19/2026)
@@ -567,10 +1466,53 @@ UID:checkin-house-3-2026-07-24-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb) -- BACK-TO-
+ BACK\, next guest 3:00 PM
 DTSTART;TZID=America/Los_Angeles:20260726T110000
 DTEND;TZID=America/Los_Angeles:20260726T120000
 UID:checkout-house-3-2026-07-26-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Donna (07/26/2026 - 08/02/2026)
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260802
+UID:stay-house-3-2026-07-26-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260726T150000
+DTEND;TZID=America/Los_Angeles:20260726T160000
+UID:checkin-house-3-2026-07-26-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260802T110000
+DTEND;TZID=America/Los_Angeles:20260802T120000
+UID:checkout-house-3-2026-08-02-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Craig (08/03/2026 - 08/10/2026)
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260810
+UID:stay-house-3-2026-08-03-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260803T150000
+DTEND;TZID=America/Los_Angeles:20260803T160000
+UID:checkin-house-3-2026-08-03-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260810T110000
+DTEND;TZID=America/Los_Angeles:20260810T120000
+UID:checkout-house-3-2026-08-10-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
@@ -742,6 +1684,27 @@ UID:checkout-house-3-2026-10-11-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Karin (11/25/2026 - 11/29/2026)
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261129
+UID:stay-house-3-2026-11-25-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20261125T150000
+DTEND;TZID=America/Los_Angeles:20261125T160000
+UID:checkin-house-3-2026-11-25-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20261129T110000
+DTEND;TZID=America/Los_Angeles:20261129T120000
+UID:checkout-house-3-2026-11-29-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Horace greeley (Airbnb) - Reserved (12/18/2026 - 12/23/2026)
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261223
@@ -868,6 +1831,70 @@ UID:checkout-house-3-2027-02-14-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Colorado (Vrbo) - Reserved - Leah (12/30/2025 - 01/02/2026)
+DTSTART;VALUE=DATE:20251230
+DTEND;VALUE=DATE:20260102
+UID:stay-house-4-2025-12-30-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20251230T150000
+DTEND;TZID=America/Los_Angeles:20251230T160000
+UID:checkin-house-4-2025-12-30-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260102T110000
+DTEND;TZID=America/Los_Angeles:20260102T120000
+UID:checkout-house-4-2026-01-02-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado (Vrbo) - Reserved - Jennifer (06/12/2026 - 06/15/2026)
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260615
+UID:stay-house-4-2026-06-12-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260612T150000
+DTEND;TZID=America/Los_Angeles:20260612T160000
+UID:checkin-house-4-2026-06-12-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260615T110000
+DTEND;TZID=America/Los_Angeles:20260615T120000
+UID:checkout-house-4-2026-06-15-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado (Vrbo) - Reserved - Kathy (07/11/2026 - 07/25/2026)
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260725
+UID:stay-house-4-2026-07-11-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260711T150000
+DTEND;TZID=America/Los_Angeles:20260711T160000
+UID:checkin-house-4-2026-07-11-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BACK\, n
+ ext guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20260725T110000
+DTEND;TZID=America/Los_Angeles:20260725T120000
+UID:checkout-house-4-2026-07-25-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Colorado (Airbnb) - Reserved (07/25/2026 - 07/31/2026)
 DTSTART;VALUE=DATE:20260725
 DTEND;VALUE=DATE:20260731
@@ -882,10 +1909,32 @@ UID:checkin-house-4-2026-07-25-Airbnb@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Airbnb) -- BACK-TO-BACK\,
+  next guest 3:00 PM
 DTSTART;TZID=America/Los_Angeles:20260731T110000
 DTEND;TZID=America/Los_Angeles:20260731T120000
 UID:checkout-house-4-2026-07-31-Airbnb@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado (Vrbo) - Reserved - Hieu (07/31/2026 - 08/03/2026)
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260803
+UID:stay-house-4-2026-07-31-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260731T150000
+DTEND;TZID=America/Los_Angeles:20260731T160000
+UID:checkin-house-4-2026-07-31-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260803T110000
+DTEND;TZID=America/Los_Angeles:20260803T120000
+UID:checkout-house-4-2026-08-03-Vrbo@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
@@ -907,6 +1956,27 @@ SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Airbnb)
 DTSTART;TZID=America/Los_Angeles:20260809T110000
 DTEND;TZID=America/Los_Angeles:20260809T120000
 UID:checkout-house-4-2026-08-09-Airbnb@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado (Vrbo) - Reserved - Ranfie (08/12/2026 - 08/16/2026)
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260816
+UID:stay-house-4-2026-08-12-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260812T150000
+DTEND;TZID=America/Los_Angeles:20260812T160000
+UID:checkin-house-4-2026-08-12-Vrbo@cleaning-sync
+CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260816T110000
+DTEND;TZID=America/Los_Angeles:20260816T120000
+UID:checkout-house-4-2026-08-16-Vrbo@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
@@ -950,6 +2020,366 @@ DTSTART;TZID=America/Los_Angeles:20260908T110000
 DTEND;TZID=America/Los_Angeles:20260908T120000
 UID:checkout-house-4-2026-09-08-Airbnb@cleaning-sync
 CATEGORIES:Colorado
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - Lynette (07/08/2025 - 07/11/2025)
+DTSTART;VALUE=DATE:20250708
+DTEND;VALUE=DATE:20250711
+UID:stay-house-5-2025-07-08-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250708T150000
+DTEND;TZID=America/Los_Angeles:20250708T160000
+UID:checkin-house-5-2025-07-08-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BACK\, 
+ next guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20250711T110000
+DTEND;TZID=America/Los_Angeles:20250711T120000
+UID:checkout-house-5-2025-07-11-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - Adeline (07/11/2025 - 07/13/2025)
+DTSTART;VALUE=DATE:20250711
+DTEND;VALUE=DATE:20250713
+UID:stay-house-5-2025-07-11-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250711T150000
+DTEND;TZID=America/Los_Angeles:20250711T160000
+UID:checkin-house-5-2025-07-11-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BACK\, 
+ next guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20250713T110000
+DTEND;TZID=America/Los_Angeles:20250713T120000
+UID:checkout-house-5-2025-07-13-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - Amber (07/13/2025 - 07/18/2025)
+DTSTART;VALUE=DATE:20250713
+DTEND;VALUE=DATE:20250718
+UID:stay-house-5-2025-07-13-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250713T150000
+DTEND;TZID=America/Los_Angeles:20250713T160000
+UID:checkin-house-5-2025-07-13-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250718T110000
+DTEND;TZID=America/Los_Angeles:20250718T120000
+UID:checkout-house-5-2025-07-18-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - Grace (07/20/2025 - 07/23/2025)
+DTSTART;VALUE=DATE:20250720
+DTEND;VALUE=DATE:20250723
+UID:stay-house-5-2025-07-20-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250720T150000
+DTEND;TZID=America/Los_Angeles:20250720T160000
+UID:checkin-house-5-2025-07-20-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250723T110000
+DTEND;TZID=America/Los_Angeles:20250723T120000
+UID:checkout-house-5-2025-07-23-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - Connie (07/24/2025 - 07/27/2025)
+DTSTART;VALUE=DATE:20250724
+DTEND;VALUE=DATE:20250727
+UID:stay-house-5-2025-07-24-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250724T150000
+DTEND;TZID=America/Los_Angeles:20250724T160000
+UID:checkin-house-5-2025-07-24-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250727T110000
+DTEND;TZID=America/Los_Angeles:20250727T120000
+UID:checkout-house-5-2025-07-27-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - David (07/28/2025 - 08/04/2025)
+DTSTART;VALUE=DATE:20250728
+DTEND;VALUE=DATE:20250804
+UID:stay-house-5-2025-07-28-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250728T150000
+DTEND;TZID=America/Los_Angeles:20250728T160000
+UID:checkin-house-5-2025-07-28-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250804T110000
+DTEND;TZID=America/Los_Angeles:20250804T120000
+UID:checkout-house-5-2025-08-04-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - Monique (08/10/2025 - 08/15/2025)
+DTSTART;VALUE=DATE:20250810
+DTEND;VALUE=DATE:20250815
+UID:stay-house-5-2025-08-10-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250810T150000
+DTEND;TZID=America/Los_Angeles:20250810T160000
+UID:checkin-house-5-2025-08-10-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250815T110000
+DTEND;TZID=America/Los_Angeles:20250815T120000
+UID:checkout-house-5-2025-08-15-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - Emiliano (09/19/2025 - 09/22/2025)
+DTSTART;VALUE=DATE:20250919
+DTEND;VALUE=DATE:20250922
+UID:stay-house-5-2025-09-19-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250919T150000
+DTEND;TZID=America/Los_Angeles:20250919T160000
+UID:checkin-house-5-2025-09-19-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250922T110000
+DTEND;TZID=America/Los_Angeles:20250922T120000
+UID:checkout-house-5-2025-09-22-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - Nghia (10/17/2025 - 10/19/2025)
+DTSTART;VALUE=DATE:20251017
+DTEND;VALUE=DATE:20251019
+UID:stay-house-5-2025-10-17-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20251017T150000
+DTEND;TZID=America/Los_Angeles:20251017T160000
+UID:checkin-house-5-2025-10-17-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20251019T110000
+DTEND;TZID=America/Los_Angeles:20251019T120000
+UID:checkout-house-5-2025-10-19-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - Carol (12/24/2025 - 12/29/2025)
+DTSTART;VALUE=DATE:20251224
+DTEND;VALUE=DATE:20251229
+UID:stay-house-5-2025-12-24-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20251224T150000
+DTEND;TZID=America/Los_Angeles:20251224T160000
+UID:checkin-house-5-2025-12-24-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BACK\, 
+ next guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20251229T110000
+DTEND;TZID=America/Los_Angeles:20251229T120000
+UID:checkout-house-5-2025-12-29-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - Jean (12/29/2025 - 01/01/2026)
+DTSTART;VALUE=DATE:20251229
+DTEND;VALUE=DATE:20260101
+UID:stay-house-5-2025-12-29-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20251229T150000
+DTEND;TZID=America/Los_Angeles:20251229T160000
+UID:checkin-house-5-2025-12-29-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260101T110000
+DTEND;TZID=America/Los_Angeles:20260101T120000
+UID:checkout-house-5-2026-01-01-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - Kylie (01/16/2026 - 01/18/2026)
+DTSTART;VALUE=DATE:20260116
+DTEND;VALUE=DATE:20260118
+UID:stay-house-5-2026-01-16-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260116T150000
+DTEND;TZID=America/Los_Angeles:20260116T160000
+UID:checkin-house-5-2026-01-16-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260118T110000
+DTEND;TZID=America/Los_Angeles:20260118T120000
+UID:checkout-house-5-2026-01-18-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - Hudson (01/20/2026 - 01/22/2026)
+DTSTART;VALUE=DATE:20260120
+DTEND;VALUE=DATE:20260122
+UID:stay-house-5-2026-01-20-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260120T150000
+DTEND;TZID=America/Los_Angeles:20260120T160000
+UID:checkin-house-5-2026-01-20-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260122T110000
+DTEND;TZID=America/Los_Angeles:20260122T120000
+UID:checkout-house-5-2026-01-22-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - Emily (02/06/2026 - 02/08/2026)
+DTSTART;VALUE=DATE:20260206
+DTEND;VALUE=DATE:20260208
+UID:stay-house-5-2026-02-06-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260206T150000
+DTEND;TZID=America/Los_Angeles:20260206T160000
+UID:checkin-house-5-2026-02-06-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260208T110000
+DTEND;TZID=America/Los_Angeles:20260208T120000
+UID:checkout-house-5-2026-02-08-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - Cynthia (02/13/2026 - 02/16/2026)
+DTSTART;VALUE=DATE:20260213
+DTEND;VALUE=DATE:20260216
+UID:stay-house-5-2026-02-13-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260213T150000
+DTEND;TZID=America/Los_Angeles:20260213T160000
+UID:checkin-house-5-2026-02-13-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260216T110000
+DTEND;TZID=America/Los_Angeles:20260216T120000
+UID:checkout-house-5-2026-02-16-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - Erin (03/12/2026 - 03/15/2026)
+DTSTART;VALUE=DATE:20260312
+DTEND;VALUE=DATE:20260315
+UID:stay-house-5-2026-03-12-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260312T150000
+DTEND;TZID=America/Los_Angeles:20260312T160000
+UID:checkin-house-5-2026-03-12-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260315T110000
+DTEND;TZID=America/Los_Angeles:20260315T120000
+UID:checkout-house-5-2026-03-15-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - Julie (07/02/2026 - 07/06/2026)
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260706
+UID:stay-house-5-2026-07-02-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260702T150000
+DTEND;TZID=America/Los_Angeles:20260702T160000
+UID:checkin-house-5-2026-07-02-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260706T110000
+DTEND;TZID=America/Los_Angeles:20260706T120000
+UID:checkout-house-5-2026-07-06-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Del Norte (Airbnb) - Reserved (07/16/2026 - 07/19/2026)
@@ -1033,6 +2463,48 @@ SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Airbnb)
 DTSTART;TZID=America/Los_Angeles:20260809T110000
 DTEND;TZID=America/Los_Angeles:20260809T120000
 UID:checkout-house-5-2026-08-09-Airbnb@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - Ray (08/16/2026 - 08/19/2026)
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260819
+UID:stay-house-5-2026-08-16-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260816T150000
+DTEND;TZID=America/Los_Angeles:20260816T160000
+UID:checkin-house-5-2026-08-16-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260819T110000
+DTEND;TZID=America/Los_Angeles:20260819T120000
+UID:checkout-house-5-2026-08-19-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Vrbo) - Reserved - Cynthia (03/12/2027 - 03/15/2027)
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270315
+UID:stay-house-5-2027-03-12-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20270312T150000
+DTEND;TZID=America/Los_Angeles:20270312T160000
+UID:checkin-house-5-2027-03-12-Vrbo@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20270315T110000
+DTEND;TZID=America/Los_Angeles:20270315T120000
+UID:checkout-house-5-2027-03-15-Vrbo@cleaning-sync
 CATEGORIES:Del Norte
 END:VEVENT
 END:VCALENDAR

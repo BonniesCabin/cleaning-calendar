@@ -3,6 +3,419 @@ VERSION:2.0
 PRODID:-//Multi-House Cleaning Sync//EN
 X-WR-CALNAME:Cleaning schedule - Horace greeley
 BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Khristine (06/07/2025 - 06/13/2
+ 025)
+DTSTART;VALUE=DATE:20250607
+DTEND;VALUE=DATE:20250613
+UID:stay-house-3-2025-06-07-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250607T150000
+DTEND;TZID=America/Los_Angeles:20250607T160000
+UID:checkin-house-3-2025-06-07-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250613T110000
+DTEND;TZID=America/Los_Angeles:20250613T120000
+UID:checkout-house-3-2025-06-13-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Jason (06/19/2025 - 06/22/2025)
+DTSTART;VALUE=DATE:20250619
+DTEND;VALUE=DATE:20250622
+UID:stay-house-3-2025-06-19-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250619T150000
+DTEND;TZID=America/Los_Angeles:20250619T160000
+UID:checkin-house-3-2025-06-19-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250622T110000
+DTEND;TZID=America/Los_Angeles:20250622T120000
+UID:checkout-house-3-2025-06-22-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Cynthia (06/23/2025 - 07/01/202
+ 5)
+DTSTART;VALUE=DATE:20250623
+DTEND;VALUE=DATE:20250701
+UID:stay-house-3-2025-06-23-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250623T150000
+DTEND;TZID=America/Los_Angeles:20250623T160000
+UID:checkin-house-3-2025-06-23-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250701T110000
+DTEND;TZID=America/Los_Angeles:20250701T120000
+UID:checkout-house-3-2025-07-01-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Anthony (07/06/2025 - 07/10/202
+ 5)
+DTSTART;VALUE=DATE:20250706
+DTEND;VALUE=DATE:20250710
+UID:stay-house-3-2025-07-06-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250706T150000
+DTEND;TZID=America/Los_Angeles:20250706T160000
+UID:checkin-house-3-2025-07-06-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BA
+ CK\, next guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20250710T110000
+DTEND;TZID=America/Los_Angeles:20250710T120000
+UID:checkout-house-3-2025-07-10-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Jonathan (07/10/2025 - 07/13/20
+ 25)
+DTSTART;VALUE=DATE:20250710
+DTEND;VALUE=DATE:20250713
+UID:stay-house-3-2025-07-10-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250710T150000
+DTEND;TZID=America/Los_Angeles:20250710T160000
+UID:checkin-house-3-2025-07-10-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250713T110000
+DTEND;TZID=America/Los_Angeles:20250713T120000
+UID:checkout-house-3-2025-07-13-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - imz (07/18/2025 - 07/20/2025)
+DTSTART;VALUE=DATE:20250718
+DTEND;VALUE=DATE:20250720
+UID:stay-house-3-2025-07-18-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250718T150000
+DTEND;TZID=America/Los_Angeles:20250718T160000
+UID:checkin-house-3-2025-07-18-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BA
+ CK\, next guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20250720T110000
+DTEND;TZID=America/Los_Angeles:20250720T120000
+UID:checkout-house-3-2025-07-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Gretchen (07/20/2025 - 07/24/20
+ 25)
+DTSTART;VALUE=DATE:20250720
+DTEND;VALUE=DATE:20250724
+UID:stay-house-3-2025-07-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250720T150000
+DTEND;TZID=America/Los_Angeles:20250720T160000
+UID:checkin-house-3-2025-07-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250724T110000
+DTEND;TZID=America/Los_Angeles:20250724T120000
+UID:checkout-house-3-2025-07-24-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Joseph (07/25/2025 - 07/30/2025
+ )
+DTSTART;VALUE=DATE:20250725
+DTEND;VALUE=DATE:20250730
+UID:stay-house-3-2025-07-25-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250725T150000
+DTEND;TZID=America/Los_Angeles:20250725T160000
+UID:checkin-house-3-2025-07-25-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250730T110000
+DTEND;TZID=America/Los_Angeles:20250730T120000
+UID:checkout-house-3-2025-07-30-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Jacob w (09/05/2025 - 09/07/202
+ 5)
+DTSTART;VALUE=DATE:20250905
+DTEND;VALUE=DATE:20250907
+UID:stay-house-3-2025-09-05-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250905T150000
+DTEND;TZID=America/Los_Angeles:20250905T160000
+UID:checkin-house-3-2025-09-05-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250907T110000
+DTEND;TZID=America/Los_Angeles:20250907T120000
+UID:checkout-house-3-2025-09-07-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Sarah (09/26/2025 - 09/28/2025)
+DTSTART;VALUE=DATE:20250926
+DTEND;VALUE=DATE:20250928
+UID:stay-house-3-2025-09-26-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250926T150000
+DTEND;TZID=America/Los_Angeles:20250926T160000
+UID:checkin-house-3-2025-09-26-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20250928T110000
+DTEND;TZID=America/Los_Angeles:20250928T120000
+UID:checkout-house-3-2025-09-28-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Lisa (12/21/2025 - 12/27/2025)
+DTSTART;VALUE=DATE:20251221
+DTEND;VALUE=DATE:20251227
+UID:stay-house-3-2025-12-21-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20251221T150000
+DTEND;TZID=America/Los_Angeles:20251221T160000
+UID:checkin-house-3-2025-12-21-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20251227T110000
+DTEND;TZID=America/Los_Angeles:20251227T120000
+UID:checkout-house-3-2025-12-27-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Marc (12/31/2025 - 01/04/2026)
+DTSTART;VALUE=DATE:20251231
+DTEND;VALUE=DATE:20260104
+UID:stay-house-3-2025-12-31-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20251231T150000
+DTEND;TZID=America/Los_Angeles:20251231T160000
+UID:checkin-house-3-2025-12-31-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260104T110000
+DTEND;TZID=America/Los_Angeles:20260104T120000
+UID:checkout-house-3-2026-01-04-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Chance (02/05/2026 - 02/08/2026
+ )
+DTSTART;VALUE=DATE:20260205
+DTEND;VALUE=DATE:20260208
+UID:stay-house-3-2026-02-05-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260205T150000
+DTEND;TZID=America/Los_Angeles:20260205T160000
+UID:checkin-house-3-2026-02-05-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260208T110000
+DTEND;TZID=America/Los_Angeles:20260208T120000
+UID:checkout-house-3-2026-02-08-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Tyler (03/20/2026 - 03/22/2026)
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260322
+UID:stay-house-3-2026-03-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260320T150000
+DTEND;TZID=America/Los_Angeles:20260320T160000
+UID:checkin-house-3-2026-03-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260322T110000
+DTEND;TZID=America/Los_Angeles:20260322T120000
+UID:checkout-house-3-2026-03-22-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - MIGUEL (05/13/2026 - 05/17/2026
+ )
+DTSTART;VALUE=DATE:20260513
+DTEND;VALUE=DATE:20260517
+UID:stay-house-3-2026-05-13-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260513T150000
+DTEND;TZID=America/Los_Angeles:20260513T160000
+UID:checkin-house-3-2026-05-13-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260517T110000
+DTEND;TZID=America/Los_Angeles:20260517T120000
+UID:checkout-house-3-2026-05-17-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Amanda (05/22/2026 - 05/25/2026
+ )
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260525
+UID:stay-house-3-2026-05-22-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260522T150000
+DTEND;TZID=America/Los_Angeles:20260522T160000
+UID:checkin-house-3-2026-05-22-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260525T110000
+DTEND;TZID=America/Los_Angeles:20260525T120000
+UID:checkout-house-3-2026-05-25-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Joshua (06/20/2026 - 06/22/2026
+ )
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260622
+UID:stay-house-3-2026-06-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260620T150000
+DTEND;TZID=America/Los_Angeles:20260620T160000
+UID:checkin-house-3-2026-06-20-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260622T110000
+DTEND;TZID=America/Los_Angeles:20260622T120000
+UID:checkout-house-3-2026-06-22-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - James (07/01/2026 - 07/06/2026)
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260706
+UID:stay-house-3-2026-07-01-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260701T150000
+DTEND;TZID=America/Los_Angeles:20260701T160000
+UID:checkin-house-3-2026-07-01-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260706T110000
+DTEND;TZID=America/Los_Angeles:20260706T120000
+UID:checkout-house-3-2026-07-06-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Julie (07/12/2026 - 07/17/2026)
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260717
+UID:stay-house-3-2026-07-12-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260712T150000
+DTEND;TZID=America/Los_Angeles:20260712T160000
+UID:checkin-house-3-2026-07-12-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BA
+ CK\, next guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20260717T110000
+DTEND;TZID=America/Los_Angeles:20260717T120000
+UID:checkout-house-3-2026-07-17-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Horace greeley (Airbnb) - Reserved (07/17/2026 - 07/19/2026)
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260719
@@ -60,10 +473,53 @@ UID:checkin-house-3-2026-07-24-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb) -- BACK-TO-
+ BACK\, next guest 3:00 PM
 DTSTART;TZID=America/Los_Angeles:20260726T110000
 DTEND;TZID=America/Los_Angeles:20260726T120000
 UID:checkout-house-3-2026-07-26-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Donna (07/26/2026 - 08/02/2026)
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260802
+UID:stay-house-3-2026-07-26-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260726T150000
+DTEND;TZID=America/Los_Angeles:20260726T160000
+UID:checkin-house-3-2026-07-26-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260802T110000
+DTEND;TZID=America/Los_Angeles:20260802T120000
+UID:checkout-house-3-2026-08-02-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Craig (08/03/2026 - 08/10/2026)
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260810
+UID:stay-house-3-2026-08-03-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260803T150000
+DTEND;TZID=America/Los_Angeles:20260803T160000
+UID:checkin-house-3-2026-08-03-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260810T110000
+DTEND;TZID=America/Los_Angeles:20260810T120000
+UID:checkout-house-3-2026-08-10-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
@@ -232,6 +688,27 @@ SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
 DTSTART;TZID=America/Los_Angeles:20261011T110000
 DTEND;TZID=America/Los_Angeles:20261011T120000
 UID:checkout-house-3-2026-10-11-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Vrbo) - Reserved - Karin (11/25/2026 - 11/29/2026)
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261129
+UID:stay-house-3-2026-11-25-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20261125T150000
+DTEND;TZID=America/Los_Angeles:20261125T160000
+UID:checkin-house-3-2026-11-25-Vrbo@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20261129T110000
+DTEND;TZID=America/Los_Angeles:20261129T120000
+UID:checkout-house-3-2026-11-29-Vrbo@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
