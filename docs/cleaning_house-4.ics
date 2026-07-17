@@ -3,90 +3,6 @@ VERSION:2.0
 PRODID:-//Multi-House Cleaning Sync//EN
 X-WR-CALNAME:Cleaning schedule - Colorado
 BEGIN:VEVENT
-SUMMARY:Colorado (Vrbo) - Reserved - Leah (12/30/2025 - 01/02/2026)
-DTSTART;VALUE=DATE:20251230
-DTEND;VALUE=DATE:20260102
-UID:stay-house-4-2025-12-30-Vrbo@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado - CHECK-IN 3:00 PM (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20251230T150000
-DTEND;TZID=America/Los_Angeles:20251230T160000
-UID:checkin-house-4-2025-12-30-Vrbo@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260102T110000
-DTEND;TZID=America/Los_Angeles:20260102T120000
-UID:checkout-house-4-2026-01-02-Vrbo@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado (Vrbo) - Blocked (03/06/2026 - 03/09/2026)
-DTSTART;VALUE=DATE:20260306
-DTEND;VALUE=DATE:20260309
-UID:stay-house-4-2026-03-06-Vrbo@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado - CHECK-IN 3:00 PM (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260306T150000
-DTEND;TZID=America/Los_Angeles:20260306T160000
-UID:checkin-house-4-2026-03-06-Vrbo@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260309T110000
-DTEND;TZID=America/Los_Angeles:20260309T120000
-UID:checkout-house-4-2026-03-09-Vrbo@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado (Vrbo) - Reserved - Jennifer (06/12/2026 - 06/15/2026)
-DTSTART;VALUE=DATE:20260612
-DTEND;VALUE=DATE:20260615
-UID:stay-house-4-2026-06-12-Vrbo@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado - CHECK-IN 3:00 PM (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260612T150000
-DTEND;TZID=America/Los_Angeles:20260612T160000
-UID:checkin-house-4-2026-06-12-Vrbo@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260615T110000
-DTEND;TZID=America/Los_Angeles:20260615T120000
-UID:checkout-house-4-2026-06-15-Vrbo@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado (Vrbo) - Reserved - Kathy (07/11/2026 - 07/25/2026)
-DTSTART;VALUE=DATE:20260711
-DTEND;VALUE=DATE:20260725
-UID:stay-house-4-2026-07-11-Vrbo@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado - CHECK-IN 3:00 PM (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260711T150000
-DTEND;TZID=America/Los_Angeles:20260711T160000
-UID:checkin-house-4-2026-07-11-Vrbo@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260725T110000
-DTEND;TZID=America/Los_Angeles:20260725T120000
-UID:checkout-house-4-2026-07-25-Vrbo@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Colorado (Airbnb) - Airbnb (Not available) (07/16/2026 - 07/18/202
  6)
 DTSTART;VALUE=DATE:20260716
@@ -123,32 +39,10 @@ UID:checkin-house-4-2026-07-25-Airbnb@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Airbnb) -- BACK-TO-BACK\,
-  next guest 3:00 PM
+SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Airbnb)
 DTSTART;TZID=America/Los_Angeles:20260731T110000
 DTEND;TZID=America/Los_Angeles:20260731T120000
 UID:checkout-house-4-2026-07-31-Airbnb@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado (Vrbo) - Reserved - Hieu (07/31/2026 - 08/03/2026)
-DTSTART;VALUE=DATE:20260731
-DTEND;VALUE=DATE:20260803
-UID:stay-house-4-2026-07-31-Vrbo@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado - CHECK-IN 3:00 PM (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260731T150000
-DTEND;TZID=America/Los_Angeles:20260731T160000
-UID:checkin-house-4-2026-07-31-Vrbo@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260803T110000
-DTEND;TZID=America/Los_Angeles:20260803T120000
-UID:checkout-house-4-2026-08-03-Vrbo@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
@@ -170,27 +64,6 @@ SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Airbnb)
 DTSTART;TZID=America/Los_Angeles:20260809T110000
 DTEND;TZID=America/Los_Angeles:20260809T120000
 UID:checkout-house-4-2026-08-09-Airbnb@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado (Vrbo) - Reserved - Ranfie (08/12/2026 - 08/16/2026)
-DTSTART;VALUE=DATE:20260812
-DTEND;VALUE=DATE:20260816
-UID:stay-house-4-2026-08-12-Vrbo@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado - CHECK-IN 3:00 PM (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260812T150000
-DTEND;TZID=America/Los_Angeles:20260812T160000
-UID:checkin-house-4-2026-08-12-Vrbo@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260816T110000
-DTEND;TZID=America/Los_Angeles:20260816T120000
-UID:checkout-house-4-2026-08-16-Vrbo@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
@@ -236,10 +109,10 @@ UID:checkout-house-4-2026-09-08-Airbnb@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Colorado (Airbnb) - Airbnb (Not available) (04/12/2027 - 07/17/202
+SUMMARY:Colorado (Airbnb) - Airbnb (Not available) (04/12/2027 - 07/18/202
  7)
 DTSTART;VALUE=DATE:20270412
-DTEND;VALUE=DATE:20270717
+DTEND;VALUE=DATE:20270718
 UID:stay-house-4-2027-04-12-Airbnb@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
@@ -252,9 +125,9 @@ CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20270717T110000
-DTEND;TZID=America/Los_Angeles:20270717T120000
-UID:checkout-house-4-2027-07-17-Airbnb@cleaning-sync
+DTSTART;TZID=America/Los_Angeles:20270718T110000
+DTEND;TZID=America/Los_Angeles:20270718T120000
+UID:checkout-house-4-2027-07-18-Airbnb@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 END:VCALENDAR

@@ -3,91 +3,6 @@ VERSION:2.0
 PRODID:-//Multi-House Cleaning Sync//EN
 X-WR-CALNAME:Cleaning schedule - Harvard
 BEGIN:VEVENT
-SUMMARY:Harvard (Vrbo) - Reserved - Cassandra (02/15/2026 - 02/17/2026)
-DTSTART;VALUE=DATE:20260215
-DTEND;VALUE=DATE:20260217
-UID:stay-house-1-2026-02-15-Vrbo@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard - CHECK-IN 3:00 PM (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260215T150000
-DTEND;TZID=America/Los_Angeles:20260215T160000
-UID:checkin-house-1-2026-02-15-Vrbo@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260217T110000
-DTEND;TZID=America/Los_Angeles:20260217T120000
-UID:checkout-house-1-2026-02-17-Vrbo@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard (Vrbo) - Reserved - Kasaundra (04/10/2026 - 04/12/2026)
-DTSTART;VALUE=DATE:20260410
-DTEND;VALUE=DATE:20260412
-UID:stay-house-1-2026-04-10-Vrbo@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard - CHECK-IN 3:00 PM (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260410T150000
-DTEND;TZID=America/Los_Angeles:20260410T160000
-UID:checkin-house-1-2026-04-10-Vrbo@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260412T110000
-DTEND;TZID=America/Los_Angeles:20260412T120000
-UID:checkout-house-1-2026-04-12-Vrbo@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard (Vrbo) - Reserved - Elizabeth (06/07/2026 - 06/13/2026)
-DTSTART;VALUE=DATE:20260607
-DTEND;VALUE=DATE:20260613
-UID:stay-house-1-2026-06-07-Vrbo@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard - CHECK-IN 3:00 PM (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260607T150000
-DTEND;TZID=America/Los_Angeles:20260607T160000
-UID:checkin-house-1-2026-06-07-Vrbo@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260613T110000
-DTEND;TZID=America/Los_Angeles:20260613T120000
-UID:checkout-house-1-2026-06-13-Vrbo@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard (Airbnb) - Reserved (07/12/2026 - 07/15/2026)
-DTSTART;VALUE=DATE:20260712
-DTEND;VALUE=DATE:20260715
-UID:stay-house-1-2026-07-12-Airbnb@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard - CHECK-IN 3:00 PM (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20260712T150000
-DTEND;TZID=America/Los_Angeles:20260712T160000
-UID:checkin-house-1-2026-07-12-Airbnb@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Airbnb) -- BACK-TO-BACK\, 
- next guest 3:00 PM
-DTSTART;TZID=America/Los_Angeles:20260715T110000
-DTEND;TZID=America/Los_Angeles:20260715T120000
-UID:checkout-house-1-2026-07-15-Airbnb@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Harvard (Airbnb) - Reserved (07/15/2026 - 07/17/2026)
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260717
@@ -124,55 +39,10 @@ UID:checkin-house-1-2026-07-17-Airbnb@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Airbnb) -- BACK-TO-BACK\, 
- next guest 3:00 PM
+SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Airbnb)
 DTSTART;TZID=America/Los_Angeles:20260720T110000
 DTEND;TZID=America/Los_Angeles:20260720T120000
 UID:checkout-house-1-2026-07-20-Airbnb@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard (Vrbo) - Reserved - Cassie (07/20/2026 - 07/23/2026)
-DTSTART;VALUE=DATE:20260720
-DTEND;VALUE=DATE:20260723
-UID:stay-house-1-2026-07-20-Vrbo@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard - CHECK-IN 3:00 PM (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260720T150000
-DTEND;TZID=America/Los_Angeles:20260720T160000
-UID:checkin-house-1-2026-07-20-Vrbo@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BACK\, ne
- xt guest 3:00 PM
-DTSTART;TZID=America/Los_Angeles:20260723T110000
-DTEND;TZID=America/Los_Angeles:20260723T120000
-UID:checkout-house-1-2026-07-23-Vrbo@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard (Vrbo) - Reserved - Kimberly (07/23/2026 - 07/27/2026)
-DTSTART;VALUE=DATE:20260723
-DTEND;VALUE=DATE:20260727
-UID:stay-house-1-2026-07-23-Vrbo@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard - CHECK-IN 3:00 PM (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260723T150000
-DTEND;TZID=America/Los_Angeles:20260723T160000
-UID:checkin-house-1-2026-07-23-Vrbo@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BACK\, ne
- xt guest 3:00 PM
-DTSTART;TZID=America/Los_Angeles:20260727T110000
-DTEND;TZID=America/Los_Angeles:20260727T120000
-UID:checkout-house-1-2026-07-27-Vrbo@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
@@ -304,27 +174,6 @@ UID:checkout-house-1-2026-08-24-Airbnb@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Harvard (Vrbo) - Reserved - Keeley (08/27/2026 - 08/30/2026)
-DTSTART;VALUE=DATE:20260827
-DTEND;VALUE=DATE:20260830
-UID:stay-house-1-2026-08-27-Vrbo@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard - CHECK-IN 3:00 PM (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260827T150000
-DTEND;TZID=America/Los_Angeles:20260827T160000
-UID:checkin-house-1-2026-08-27-Vrbo@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20260830T110000
-DTEND;TZID=America/Los_Angeles:20260830T120000
-UID:checkout-house-1-2026-08-30-Vrbo@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Harvard (Airbnb) - Reserved (09/06/2026 - 09/09/2026)
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20260909
@@ -430,10 +279,10 @@ UID:checkout-house-1-2026-12-28-Airbnb@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Harvard (Airbnb) - Airbnb (Not available) (07/11/2027 - 07/17/2027
+SUMMARY:Harvard (Airbnb) - Airbnb (Not available) (07/11/2027 - 07/18/2027
  )
 DTSTART;VALUE=DATE:20270711
-DTEND;VALUE=DATE:20270717
+DTEND;VALUE=DATE:20270718
 UID:stay-house-1-2027-07-11-Airbnb@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
@@ -446,9 +295,9 @@ CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20270717T110000
-DTEND;TZID=America/Los_Angeles:20270717T120000
-UID:checkout-house-1-2027-07-17-Airbnb@cleaning-sync
+DTSTART;TZID=America/Los_Angeles:20270718T110000
+DTEND;TZID=America/Los_Angeles:20270718T120000
+UID:checkout-house-1-2027-07-18-Airbnb@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
 END:VCALENDAR
