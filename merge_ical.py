@@ -6,20 +6,18 @@ Output:
   docs/cleaning.ics              -> ALL houses, ALL platforms combined
   docs/cleaning_<slug>.ics       -> one file PER house
 
-For each reservation, three events are generated:
-  1. A "stay" event spanning check-in to check-out (all-day,
-     informational, matches what Airbnb/Vrbo show).
-  2. A timed CHECKOUT / CLEANING event at 11:00 AM on the checkout
-     date. If the next reservation for the same house checks in that
-     same day, it's flagged as a BACK-TO-BACK TURNOVER.
-  3. A timed CHECK-IN event at 3:00 PM on the check-in date.
+For each real reservation, three events are generated:
+  1. A "stay" event spanning check-in to check-out (all-day).
+  2. A timed CHECK-IN event at 3:00 PM on the check-in date.
+  3. A timed CHECKOUT / CLEANING event at 11:00 AM on the checkout
+     date, flagged BACK-TO-BACK if the next reservation starts that
+     same day.
 
-Times are configurable below (CHECKIN_HOUR / CHECKOUT_HOUR) and the
-timezone can be set in config.json with a top-level "timezone" key
-(IANA name, e.g. "America/Los_Angeles"). Defaults to Pacific time.
+"Not available" / blocked entries (manual blocks or cross-sync echoes
+from the other platform) are skipped -- they are not real bookings.
 
-Each event is tagged with CATEGORIES = house name, so calendar apps
-that support filtering/coloring by category can sort by house.
+Times: CHECKIN_HOUR / CHECKOUT_HOUR. Timezone via config.json
+"timezone" key (defaults to America/Los_Angeles).
 """
 
 import json
@@ -37,7 +35,7 @@ DOCS_DIR = Path(__file__).parent / "docs"
 CHECKIN_HOUR = 15   # 3:00 PM
 CHECKOUT_HOUR = 11  # 11:00 AM
 DEFAULT_TIMEZONE = "America/Los_Angeles"
-EVENT_DURATION_HOURS = 1  # display length of timed events
+EVENT_DURATION_HOURS = 1
 
 
 def load_config():
@@ -62,20 +60,18 @@ def new_calendar(name: str) -> Calendar:
 
 
 def to_date(value) -> date:
-    """Normalize a date/datetime value to a plain date."""
     if isinstance(value, datetime):
         return value.date()
     return value
 
 
 def us_date(value: date) -> str:
-    """Format a date as MM/DD/YYYY (US format)."""
     return value.strftime("%m/%d/%Y")
 
 
 def collect_house_events(prop):
     """Fetch and combine reservations from all sources for one house,
-    sorted by check-in date."""
+    sorted by check-in date. Blocked / not-available entries are skipped."""
     events = []
     for source in prop["sources"]:
         platform = source["platform"]
@@ -94,10 +90,28 @@ def collect_house_events(prop):
             if dtstart is None or dtend is None:
                 continue
 
+            summary = str(component.get("summary", "Reservation"))
+
+            # Skip "blocked / not available" entries. These are NOT real
+            # guest reservations -- they're manual blocks or cross-sync
+            # echoes (e.g. an Airbnb feed re-exporting a Vrbo booking as
+            # "Not available"). Real reservations use titles like
+            # "Reserved". We drop anything that looks like a block.
+            lowered = summary.lower()
+            block_markers = (
+                "not available",
+                "unavailable",
+                "blocked",
+                "closed",
+                "not-available",
+            )
+            if any(marker in lowered for marker in block_markers):
+                continue
+
             events.append(
                 {
                     "platform": platform,
-                    "summary": str(component.get("summary", "Reservation")),
+                    "summary": summary,
                     "start": to_date(dtstart.dt),
                     "end": to_date(dtend.dt),  # exclusive checkout date
                 }
@@ -108,7 +122,6 @@ def collect_house_events(prop):
 
 
 def make_allday_event(uid: str, summary: str, start: date, end: date, categories: str) -> Event:
-    """All-day VEVENT spanning [start, end) (end exclusive)."""
     ev = Event()
     ev.add("uid", uid)
     ev.add("summary", summary)
@@ -119,7 +132,6 @@ def make_allday_event(uid: str, summary: str, start: date, end: date, categories
 
 
 def make_timed_event(uid: str, summary: str, day: date, hour: int, tz, categories: str) -> Event:
-    """Timed VEVENT on a given day at a given local hour."""
     start_dt = datetime(day.year, day.month, day.day, hour, 0, tzinfo=tz)
     ev = Event()
     ev.add("uid", uid)
