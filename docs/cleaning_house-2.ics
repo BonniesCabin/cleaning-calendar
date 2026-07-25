@@ -444,6 +444,48 @@ UID:checkout-house-2-2026-09-13-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Needle peak (Airbnb) - Reserved (09/25/2026 - 09/28/2026)
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260928
+UID:stay-house-2-2026-09-25-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260925T150000
+DTEND;TZID=America/Los_Angeles:20260925T160000
+UID:checkin-house-2-2026-09-25-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260928T110000
+DTEND;TZID=America/Los_Angeles:20260928T120000
+UID:checkout-house-2-2026-09-28-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak (Airbnb) - Reserved (09/25/2026 - 09/28/2026)
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260928
+UID:stay-house-2-2026-09-25-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260925T150000
+DTEND;TZID=America/Los_Angeles:20260925T160000
+UID:checkin-house-2-2026-09-25-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260928T110000
+DTEND;TZID=America/Los_Angeles:20260928T120000
+UID:checkout-house-2-2026-09-28-Airbnb@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Needle peak (Airbnb) - Reserved (10/09/2026 - 10/12/2026)
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261012
