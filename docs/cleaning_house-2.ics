@@ -444,6 +444,27 @@ UID:checkout-house-2-2026-09-13-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Needle peak (Vrbo) - Reserved - Cash (09/19/2026 - 09/21/2026)
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260921
+UID:stay-house-2-2026-09-19-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260919T150000
+DTEND;TZID=America/Los_Angeles:20260919T160000
+UID:checkin-house-2-2026-09-19-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20260921T110000
+DTEND;TZID=America/Los_Angeles:20260921T120000
+UID:checkout-house-2-2026-09-21-Vrbo@cleaning-sync
+CATEGORIES:Needle peak
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Needle peak (Airbnb) - Reserved (09/25/2026 - 09/28/2026)
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260928
