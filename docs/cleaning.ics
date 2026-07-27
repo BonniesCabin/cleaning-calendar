@@ -1722,6 +1722,27 @@ UID:checkout-house-3-2026-10-11-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (10/16/2026 - 10/18/2026)
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261018
+UID:stay-house-3-2026-10-16-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20261016T150000
+DTEND;TZID=America/Los_Angeles:20261016T160000
+UID:checkin-house-3-2026-10-16-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20261018T110000
+DTEND;TZID=America/Los_Angeles:20261018T120000
+UID:checkout-house-3-2026-10-18-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Horace greeley (Vrbo) - Reserved - Karin (11/25/2026 - 11/29/2026)
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261129
@@ -2434,10 +2455,33 @@ UID:checkin-house-5-2026-07-24-Airbnb@cleaning-sync
 CATEGORIES:Del Norte
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Airbnb) -- BACK-TO-BACK\
+ , next guest 3:00 PM
 DTSTART;TZID=America/Los_Angeles:20260727T110000
 DTEND;TZID=America/Los_Angeles:20260727T120000
 UID:checkout-house-5-2026-07-27-Airbnb@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte (Airbnb) - Reserved (07/27/2026 - 07/31/2026)
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260731
+UID:stay-house-5-2026-07-27-Airbnb@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20260727T150000
+DTEND;TZID=America/Los_Angeles:20260727T160000
+UID:checkin-house-5-2026-07-27-Airbnb@cleaning-sync
+CATEGORIES:Del Norte
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Airbnb) -- BACK-TO-BACK\
+ , next guest 3:00 PM
+DTSTART;TZID=America/Los_Angeles:20260731T110000
+DTEND;TZID=America/Los_Angeles:20260731T120000
+UID:checkout-house-5-2026-07-31-Airbnb@cleaning-sync
 CATEGORIES:Del Norte
 END:VEVENT
 BEGIN:VEVENT
