@@ -1866,6 +1866,27 @@ UID:checkout-house-3-2027-02-23-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (07/22/2027 - 07/26/2027)
+DTSTART;VALUE=DATE:20270722
+DTEND;VALUE=DATE:20270726
+UID:stay-house-3-2027-07-22-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270722T150000
+DTEND;TZID=America/Los_Angeles:20270722T160000
+UID:checkin-house-3-2027-07-22-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270726T110000
+DTEND;TZID=America/Los_Angeles:20270726T120000
+UID:checkout-house-3-2027-07-26-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Colorado (Vrbo) - Reserved - Leah (12/30/2025 - 01/02/2026)
 DTSTART;VALUE=DATE:20251230
 DTEND;VALUE=DATE:20260102
@@ -1922,33 +1943,10 @@ UID:checkin-house-4-2026-07-11-Vrbo@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BACK\, n
- ext guest 3:00 PM
+SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Vrbo)
 DTSTART;TZID=America/Los_Angeles:20260725T110000
 DTEND;TZID=America/Los_Angeles:20260725T120000
 UID:checkout-house-4-2026-07-25-Vrbo@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado (Airbnb) - Reserved (07/25/2026 - 07/31/2026)
-DTSTART;VALUE=DATE:20260725
-DTEND;VALUE=DATE:20260731
-UID:stay-house-4-2026-07-25-Airbnb@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado - CHECK-IN 3:00 PM (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20260725T150000
-DTEND;TZID=America/Los_Angeles:20260725T160000
-UID:checkin-house-4-2026-07-25-Airbnb@cleaning-sync
-CATEGORIES:Colorado
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colorado - CHECKOUT 11:00 AM / Cleaning (Airbnb) -- BACK-TO-BACK\,
-  next guest 3:00 PM
-DTSTART;TZID=America/Los_Angeles:20260731T110000
-DTEND;TZID=America/Los_Angeles:20260731T120000
-UID:checkout-house-4-2026-07-31-Airbnb@cleaning-sync
 CATEGORIES:Colorado
 END:VEVENT
 BEGIN:VEVENT
@@ -2414,28 +2412,6 @@ SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Vrbo)
 DTSTART;TZID=America/Los_Angeles:20260706T110000
 DTEND;TZID=America/Los_Angeles:20260706T120000
 UID:checkout-house-5-2026-07-06-Vrbo@cleaning-sync
-CATEGORIES:Del Norte
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Del Norte (Airbnb) - Reserved (07/27/2026 - 07/31/2026)
-DTSTART;VALUE=DATE:20260727
-DTEND;VALUE=DATE:20260731
-UID:stay-house-5-2026-07-27-Airbnb@cleaning-sync
-CATEGORIES:Del Norte
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Del Norte - CHECK-IN 3:00 PM (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20260727T150000
-DTEND;TZID=America/Los_Angeles:20260727T160000
-UID:checkin-house-5-2026-07-27-Airbnb@cleaning-sync
-CATEGORIES:Del Norte
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Del Norte - CHECKOUT 11:00 AM / Cleaning (Airbnb) -- BACK-TO-BACK\
- , next guest 3:00 PM
-DTSTART;TZID=America/Los_Angeles:20260731T110000
-DTEND;TZID=America/Los_Angeles:20260731T120000
-UID:checkout-house-5-2026-07-31-Airbnb@cleaning-sync
 CATEGORIES:Del Norte
 END:VEVENT
 BEGIN:VEVENT
