@@ -109,27 +109,6 @@ UID:checkout-house-1-2026-07-27-Vrbo@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Harvard (Airbnb) - Reserved (07/30/2026 - 08/02/2026)
-DTSTART;VALUE=DATE:20260730
-DTEND;VALUE=DATE:20260802
-UID:stay-house-1-2026-07-30-Airbnb@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard - CHECK-IN 3:00 PM (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20260730T150000
-DTEND;TZID=America/Los_Angeles:20260730T160000
-UID:checkin-house-1-2026-07-30-Airbnb@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20260802T110000
-DTEND;TZID=America/Los_Angeles:20260802T120000
-UID:checkout-house-1-2026-08-02-Airbnb@cleaning-sync
-CATEGORIES:Harvard
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Harvard (Airbnb) - Reserved (08/03/2026 - 08/07/2026)
 DTSTART;VALUE=DATE:20260803
 DTEND;VALUE=DATE:20260807
@@ -1800,6 +1779,27 @@ SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
 DTSTART;TZID=America/Los_Angeles:20270118T110000
 DTEND;TZID=America/Los_Angeles:20270118T120000
 UID:checkout-house-3-2027-01-18-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (01/29/2027 - 01/31/2027)
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270131
+UID:stay-house-3-2027-01-29-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270129T150000
+DTEND;TZID=America/Los_Angeles:20270129T160000
+UID:checkin-house-3-2027-01-29-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270131T110000
+DTEND;TZID=America/Los_Angeles:20270131T120000
+UID:checkout-house-3-2027-01-31-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
