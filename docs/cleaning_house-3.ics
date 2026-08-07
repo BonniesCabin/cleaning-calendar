@@ -856,6 +856,27 @@ UID:checkout-house-3-2027-02-23-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (02/24/2027 - 02/28/2027)
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270228
+UID:stay-house-3-2027-02-24-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270224T150000
+DTEND;TZID=America/Los_Angeles:20270224T160000
+UID:checkin-house-3-2027-02-24-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270228T110000
+DTEND;TZID=America/Los_Angeles:20270228T120000
+UID:checkout-house-3-2027-02-28-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Horace greeley (Airbnb) - Reserved (07/22/2027 - 07/26/2027)
 DTSTART;VALUE=DATE:20270722
 DTEND;VALUE=DATE:20270726
