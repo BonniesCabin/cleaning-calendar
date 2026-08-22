@@ -739,45 +739,45 @@ UID:checkout-house-2-2026-12-31-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Needle peak (Airbnb) - Reserved (01/02/2027 - 01/06/2027)
-DTSTART;VALUE=DATE:20270102
-DTEND;VALUE=DATE:20270106
-UID:stay-house-2-2027-01-02-Airbnb@cleaning-sync
+SUMMARY:Needle peak (Airbnb) - Reserved (01/01/2027 - 01/05/2027)
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270105
+UID:stay-house-2-2027-01-01-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Needle peak - CHECK-IN 3:00 PM (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20270102T150000
-DTEND;TZID=America/Los_Angeles:20270102T160000
-UID:checkin-house-2-2027-01-02-Airbnb@cleaning-sync
+DTSTART;TZID=America/Los_Angeles:20270101T150000
+DTEND;TZID=America/Los_Angeles:20270101T160000
+UID:checkin-house-2-2027-01-01-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20270106T110000
-DTEND;TZID=America/Los_Angeles:20270106T120000
-UID:checkout-house-2-2027-01-06-Airbnb@cleaning-sync
+DTSTART;TZID=America/Los_Angeles:20270105T110000
+DTEND;TZID=America/Los_Angeles:20270105T120000
+UID:checkout-house-2-2027-01-05-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Needle peak (Airbnb) - Reserved (01/02/2027 - 01/06/2027)
-DTSTART;VALUE=DATE:20270102
-DTEND;VALUE=DATE:20270106
-UID:stay-house-2-2027-01-02-Airbnb@cleaning-sync
+SUMMARY:Needle peak (Airbnb) - Reserved (01/01/2027 - 01/05/2027)
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270105
+UID:stay-house-2-2027-01-01-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Needle peak - CHECK-IN 3:00 PM (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20270102T150000
-DTEND;TZID=America/Los_Angeles:20270102T160000
-UID:checkin-house-2-2027-01-02-Airbnb@cleaning-sync
+DTSTART;TZID=America/Los_Angeles:20270101T150000
+DTEND;TZID=America/Los_Angeles:20270101T160000
+UID:checkin-house-2-2027-01-01-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Airbnb)
-DTSTART;TZID=America/Los_Angeles:20270106T110000
-DTEND;TZID=America/Los_Angeles:20270106T120000
-UID:checkout-house-2-2027-01-06-Airbnb@cleaning-sync
+DTSTART;TZID=America/Los_Angeles:20270105T110000
+DTEND;TZID=America/Los_Angeles:20270105T120000
+UID:checkout-house-2-2027-01-05-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
