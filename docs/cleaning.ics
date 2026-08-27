@@ -1382,6 +1382,27 @@ UID:checkout-house-3-2026-10-18-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (11/06/2026 - 11/08/2026)
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261108
+UID:stay-house-3-2026-11-06-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20261106T150000
+DTEND;TZID=America/Los_Angeles:20261106T160000
+UID:checkin-house-3-2026-11-06-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20261108T110000
+DTEND;TZID=America/Los_Angeles:20261108T120000
+UID:checkout-house-3-2026-11-08-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Horace greeley (Vrbo) - Reserved - Karin (11/25/2026 - 11/29/2026)
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261129
@@ -1610,6 +1631,27 @@ SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
 DTSTART;TZID=America/Los_Angeles:20270228T110000
 DTEND;TZID=America/Los_Angeles:20270228T120000
 UID:checkout-house-3-2027-02-28-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley (Airbnb) - Reserved (03/26/2027 - 03/29/2027)
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270329
+UID:stay-house-3-2027-03-26-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270326T150000
+DTEND;TZID=America/Los_Angeles:20270326T160000
+UID:checkin-house-3-2027-03-26-Airbnb@cleaning-sync
+CATEGORIES:Horace greeley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Horace greeley - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20270329T110000
+DTEND;TZID=America/Los_Angeles:20270329T120000
+UID:checkout-house-3-2027-03-29-Airbnb@cleaning-sync
 CATEGORIES:Horace greeley
 END:VEVENT
 BEGIN:VEVENT
