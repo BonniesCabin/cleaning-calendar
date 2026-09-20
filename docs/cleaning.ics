@@ -677,27 +677,6 @@ UID:checkout-house-2-2027-01-31-Airbnb@cleaning-sync
 CATEGORIES:Needle peak
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Needle peak (Vrbo) - Reserved - Jessica (02/13/2027 - 02/22/2027)
-DTSTART;VALUE=DATE:20270213
-DTEND;VALUE=DATE:20270222
-UID:stay-house-2-2027-02-13-Vrbo@cleaning-sync
-CATEGORIES:Needle peak
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Needle peak - CHECK-IN 3:00 PM (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20270213T150000
-DTEND;TZID=America/Los_Angeles:20270213T160000
-UID:checkin-house-2-2027-02-13-Vrbo@cleaning-sync
-CATEGORIES:Needle peak
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Needle peak - CHECKOUT 11:00 AM / Cleaning (Vrbo)
-DTSTART;TZID=America/Los_Angeles:20270222T110000
-DTEND;TZID=America/Los_Angeles:20270222T120000
-UID:checkout-house-2-2027-02-22-Vrbo@cleaning-sync
-CATEGORIES:Needle peak
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Horace greeley (Vrbo) - Reserved - Khristine (06/07/2025 - 06/13/2
  025)
 DTSTART;VALUE=DATE:20250607
