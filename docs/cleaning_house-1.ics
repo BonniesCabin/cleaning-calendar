@@ -249,10 +249,32 @@ UID:checkin-house-1-2026-11-21-Vrbo@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Vrbo) -- BACK-TO-BACK\, ne
+ xt guest 3:00 PM
 DTSTART;TZID=America/Los_Angeles:20261123T110000
 DTEND;TZID=America/Los_Angeles:20261123T120000
 UID:checkout-house-1-2026-11-23-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard (Vrbo) - Reserved - Jennifer (11/23/2026 - 11/27/2026)
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261127
+UID:stay-house-1-2026-11-23-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard - CHECK-IN 3:00 PM (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20261123T150000
+DTEND;TZID=America/Los_Angeles:20261123T160000
+UID:checkin-house-1-2026-11-23-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Vrbo)
+DTSTART;TZID=America/Los_Angeles:20261127T110000
+DTEND;TZID=America/Los_Angeles:20261127T120000
+UID:checkout-house-1-2026-11-27-Vrbo@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
@@ -274,6 +296,27 @@ SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Vrbo)
 DTSTART;TZID=America/Los_Angeles:20261203T110000
 DTEND;TZID=America/Los_Angeles:20261203T120000
 UID:checkout-house-1-2026-12-03-Vrbo@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard (Airbnb) - Reserved (12/04/2026 - 12/07/2026)
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261207
+UID:stay-house-1-2026-12-04-Airbnb@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard - CHECK-IN 3:00 PM (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20261204T150000
+DTEND;TZID=America/Los_Angeles:20261204T160000
+UID:checkin-house-1-2026-12-04-Airbnb@cleaning-sync
+CATEGORIES:Harvard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harvard - CHECKOUT 11:00 AM / Cleaning (Airbnb)
+DTSTART;TZID=America/Los_Angeles:20261207T110000
+DTEND;TZID=America/Los_Angeles:20261207T120000
+UID:checkout-house-1-2026-12-07-Airbnb@cleaning-sync
 CATEGORIES:Harvard
 END:VEVENT
 BEGIN:VEVENT
